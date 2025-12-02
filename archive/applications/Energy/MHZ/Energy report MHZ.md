@@ -1,0 +1,1 @@
+[Energy report MHZ](obsidian://vault/automation/Energy%20report%20MHZ)

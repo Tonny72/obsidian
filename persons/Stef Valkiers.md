@@ -1,0 +1,8 @@
+---
+aliases:
+  - Stef
+---
+
+tags:: persons
+
+-

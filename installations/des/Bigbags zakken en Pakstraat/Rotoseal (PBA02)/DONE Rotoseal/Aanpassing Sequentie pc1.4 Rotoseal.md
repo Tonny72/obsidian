@@ -1,0 +1,2 @@
+Aansturing LLB_S2 =\> SLLB1.1:VALUE20  
+LLB_S2 draait =\> RLLB1.B1:VALUE2

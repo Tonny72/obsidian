@@ -1,0 +1,5 @@
+- #PKM
+- Why to use Notion?
+	- seems to have a lot of features
+- Why not using Notion?
+	- data is only stored in the cloud

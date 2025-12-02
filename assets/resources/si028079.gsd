@@ -1,0 +1,319 @@
+;*******************************************************************
+; GSD File for SIPART PS2 PA, SIEMENS AG
+; Order No.: 6DR55xx-xxxxx-xxxx
+; Date     : 14.06.2007
+; File     : si028079.gsd
+;*******************************************************************
+;
+; Change History
+; ==============
+;
+; Version 5.0.1: 14.06.2007
+;   - disable Diagnostic_Alarm_supp
+;   - disable Alarm_Type_Mode_supp
+;   - correct C1/C2_Max_Data_Len
+;
+; Version 5.0.0: 04.05.2007
+;   - for FW Version 5.00.00
+;
+; Version 4.0: 09.06.2005
+;   - Enabled MS1 services
+;   - Added condensed status parameterization and diagnosis
+;
+; Version 3.1.1: 03.09.2001
+;   - Initial revision
+;
+;*******************************************************************
+
+
+
+;----- General DP keywords
+#Profibus_DP
+GSD_Revision=5
+Vendor_Name="SIEMENS AG"
+Model_Name="SIPART PS2 PA"
+Revision="5.0.1"
+Ident_Number=0x8079
+Protocol_Ident=0
+Station_Type=0
+FMS_supp=0
+Hardware_Release="A01"
+Software_Release="A02"
+31.25_supp=1
+45.45_supp=1
+93.75_supp=1
+MaxTsdr_31.25=100
+MaxTsdr_45.45=250
+MaxTsdr_93.75=1000         ;for Pepperl & Fuchs Coupler
+Redundancy=0
+Repeater_Ctrl_Sig=0
+24V_Pins=0
+Implementation_Type="SPC42/ITEC"
+Bitmap_Device="SIS8079n"
+
+
+;----- Basic DP-Slave related keywords
+Freeze_Mode_supp=0
+Sync_Mode_supp=0
+Auto_Baud_supp=0
+Set_Slave_Add_supp=1
+Min_Slave_Intervall=200
+Modular_Station=1
+Max_Module=1
+Max_Input_Len= 15  
+Max_Output_Len=10
+Max_Data_Len=25
+
+Unit_Diag_Bit(16)="Status appears"
+Unit_Diag_Bit(17)="Status disappears"
+Unit_Diag_Bit(24)="Hardware failure electronics"
+Unit_Diag_Bit(25)="Hardware failure mechanics"
+Unit_Diag_Bit(26)="Motor temperature too high"
+Unit_Diag_Bit(27)="Electronic temperature too high"
+Unit_Diag_Bit(28)="Memory error"
+Unit_Diag_Bit(29)="Measurement failure"
+Unit_Diag_Bit(30)="Device not initialized"
+Unit_Diag_Bit(31)="Device initialization failed"
+Unit_Diag_Bit(32)="Zero point error"
+Unit_Diag_Bit(33)="Power supply failed"
+Unit_Diag_Bit(34)="Configuration invalid"
+Unit_Diag_Bit(35)="Restart"
+Unit_Diag_Bit(36)="Coldstart"
+Unit_Diag_Bit(37)="Maintenance required"
+Unit_Diag_Bit(38)="Characteristics invalid"
+Unit_Diag_Bit(39)="Ident_Number violation"
+Unit_Diag_Bit(40)="Maintenance alarm"
+Unit_Diag_Bit(41)="Maintenance demanded"
+Unit_Diag_Bit(42)="Function check"
+Unit_Diag_Bit(43)="Invalid process conditions"
+Unit_Diag_Bit(55)="Extension available"
+
+;only 80 characters per line allowed ###########################################
+Unit_Diag_Bit(56)="Remaining control error"
+Unit_Diag_Bit_Help(56)="Possible causes: Compressed air missing, actuator \
+fault, valve fault (e.g. blockade) or pneumatic leakage. Check air supply. \
+Check actuator and valve."
+
+Unit_Diag_Bit(57)="Device in local operation"
+Unit_Diag_Bit_Help(57)="Instrument not in automatic mode. The instrument is in \
+configuration mode or in manual operation. Device will ignore setpoint from \
+DCS. Switch the instrument to automatic mode if configuration mode or manual \
+mode are not desired."
+
+Unit_Diag_Bit(58)="Binary input BIN1 active"
+Unit_Diag_Bit_Help(58)="The contact connected to the binary input 1 has become \
+active (only message output). Check the binary input connection."
+
+Unit_Diag_Bit(59)="Local override via binary input"
+Unit_Diag_Bit_Help(59)="Local override via binary input BIN1. The contact \
+connected to the binary input 1 has become active. Valve is in safety position \
+(driven up or driven down) or movement of actuator is blocked."
+
+Unit_Diag_Bit(60)="Binary input BIN2 active"
+Unit_Diag_Bit_Help(60)="The contact connected to the binary input 2 has become \
+active (only message output). Check the binary input connection."
+
+Unit_Diag_Bit(61)="Local override via binary input"
+Unit_Diag_Bit_Help(61)="Local override via binary input BIN2. The contact \
+connected to the binary input 2 has become active. Valve is in safety position \
+(driven up or driven down) or movement of actuator is blocked."
+
+Unit_Diag_Bit(63)="Limit number of strokes exceeded"
+Unit_Diag_Bit_Help(63)="Limit for stroke integral (100% strokes) exceeded. \
+The total distance traveled by the actuator exceeded the set limit value. \
+Stuffing box may be wasted. Stuffing box may become leak. \
+Execute maintenance work, replace stuffing box at next plant stop."
+
+Unit_Diag_Bit(64)="Limit change of direct. exceeded"
+Unit_Diag_Bit_Help(64)="The number of changes of direction exceeded the set \
+limit value. Stuffing box may be wasted. Stuffing box may become leak. Execute \
+maintenance work, replace stuffing box at next plant stop."
+
+Unit_Diag_Bit(65)="Limit bottom hard stop exceeded"
+Unit_Diag_Bit_Help(65)="Possible causes: Wear of the valve seat, deposits or \
+foreign bodies in the valve seat, mechanical maladjustment, friction clutch \
+maladjusted. Valve seat may be not seal if valve is closed. Check valve seat \
+and adjustment of clutch."
+
+Unit_Diag_Bit(66)="Limit top hard stop exceeded"
+Unit_Diag_Bit_Help(66)="Possible causes: Wear of the valve seat, deposits or \
+foreign bodies in the valve seat, mechanical maladjustment, friction clutch \
+maladjusted. Valve seat may be not seal if valve is closed. Check valve seat \
+and adjustment of clutch."
+
+Unit_Diag_Bit(67)="Limit dead zone adapt. exceeded"
+Unit_Diag_Bit_Help(67)="Limit for dead zone monitoring exceeded. Possible \
+causes: Increased stuffing box friction, mechanical lots of the position \
+feedback. Valve friction may lead to blocking of valve. Check stuffing box \
+of valve and actuator."
+
+Unit_Diag_Bit(68)="Elec. temp. out of range"
+Unit_Diag_Bit_Help(68)="Electronic temp. exceeds permissible range. Possible \
+cause: The ambient temperature near the device is out of the allowed range to \
+80 degC (176 degF). Positioner function may fail in near future. Check \
+environmental conditions, check temp. trend indicator."
+
+Unit_Diag_Bit(77)="Limit A1 exceeded"
+Unit_Diag_Bit_Help(77)="The valve pos. exceeds the response threshold for \
+alarm 1. Depending on the param. of the alarm fct. (AFCT), Alarm 1 is \
+activated on exceeding (Max) or dropping below (Min) this response threshold. \
+Check process conditions, valve and air supply pressure."
+
+Unit_Diag_Bit(78)="Limit A2 exceeded"
+Unit_Diag_Bit_Help(78)="The valve pos. exceeds the response threshold for \
+alarm 2. Depending on the param. of the alarm fct. (AFCT), Alarm 2 is \
+activated on exceeding (Max) or dropping below (Min) this response threshold. \
+Check process conditions, valve and air supply pressure."
+
+Unit_Diag_Bit(79)="Memory error"
+Unit_Diag_Bit_Help(79)="Device electronics failure. The device has detected an \
+internal error. Replace the motherboard. Send the device to repair center."
+
+Unit_Diag_Bit(80)="Device not initialized"
+Unit_Diag_Bit_Help(80)="Device is not ready for operation (not initialized). \
+The positioner is not initialized. Positioner does not operate in Automatic \
+mode until it is initialized. Please refer to the operating instructions, \
+chapter comissioning."
+
+Unit_Diag_Bit(81)="Initialization error"
+Unit_Diag_Bit_Help(81)="Device is not ready for operation (error \
+initialization). An error occurred during initialization. Please refer to the \
+operating instructions, chapter comissioning."
+
+Unit_Diag_Bit(84)="Function block in MAN mode"
+Unit_Diag_Bit_Help(84)="Device in manual mode. Function block mode is set to \
+MAN Reset the block mode of the Function Block to automatic mode. \
+(SIMATIC PDM Menu Device->Operation->Operation mode->Target mode = Automatic)."
+
+Unit_Diag_Bit(85)="Simulation of feedback value"
+Unit_Diag_Bit_Help(85)="Device in Simulation mode. The device is in simulation \
+mode. Disable simulation mode. (SIMATIC PDM Menu Device->Operation->Simulation \
+readback value->Simulation = Disable)."
+
+Unit_Diag_Bit(86)="Device in TRACE mode"
+Unit_Diag_Bit_Help(86)="Device in TRACE mode. The device is in Control TRACE \
+mode. Disable TRACE mode. (SIMATIC PDM Menu Device->Trace test->Control trace \
+mode->Enable/disable trace mode = Disable trace mode)."
+
+Unit_Diag_Bit(87)="Simulation of diagnosis"
+Unit_Diag_Bit_Help(87)="Simulated value replaces actual diagnosis. Diagnosis \
+simulation is activated. For returning to the normal operation disable the \
+simulation with SIMATIC PDM."
+
+
+Module="SP" 0xA4
+0
+Info_Text="Setpoint"
+EndModule
+
+Module="READBACK + POS_D, SP" 0xC6,0x84,0x86,0x08,0x05,0x08,0x05,0x05,0x05
+1
+Info_Text="Readback, discrete Position, Setpoint"
+EndModule
+
+Module="CHECKBACK, SP" 0xC3,0x84,0x82,0x08,0x05,0x0A
+2
+Info_Text="Checkback and Setpoint"
+EndModule
+
+Module="READBACK+POS_D+CHECKBACK, SP" 0xC7,0x84,0x89,0x08,0x05,0x08,0x05,0x05,\
+0x05,0x0A
+3
+Info_Text="Readback, discrete Position, Checkback, Setpoint"
+EndModule
+
+Module="RC_OUT, RC_IN" 0xC4,0x84,0x84,0x08,0x05,0x08,0x05
+4
+Info_Text="Remote Cascade Out, Remote Cascade In"
+EndModule
+
+Module="RC_OUT + CHECKBACK, RC_IN" 0xC5,0x84,0x87,0x08,0x05,0x08,0x05,0x0A
+5
+Info_Text="Remote Cascade Out, Checkback, Remote Cascade In"
+EndModule
+
+Module="RB+ RC_OUT+ POS_D+CB, SP+RC_IN" 0xCB,0x89,0x8E,0x08,0x05,0x08,0x05,\
+0x08,0x05,0x08,0x05,0x05,0x05,0x0A
+6
+Info_Text="Readback, Remote Cascade Out, discrete Position, Checkback, \
+Setpoint, Remote Cascade In"
+EndModule
+
+Fail_Safe=0
+Max_Diag_Data_Len=20
+Modul_Offset=1
+Slave_Family=12
+Info_Text="Electropneumatic positioner, PROFIBUS PA Profile 3.01 - Version from 4.00.00"
+Max_User_Prm_Data_Len=8
+Ext_User_Prm_Data_Const(0)=0x80     ;DPV1 Status 1
+Ext_User_Prm_Data_Const(1)=0x00     ;DPV1 Status 2
+Ext_User_Prm_Data_Const(2)=0x08     ;DPV1 Status 3
+
+PrmText=1
+Text(0)="Disabled"
+Text(1)="Enabled"
+EndPrmText
+
+ExtUserPrmData=1 "Condensed Status"
+Bit(0) 1 0-1
+Prm_Text_Ref=1
+EndExtUserPrmData
+
+;offset 3
+Ext_User_Prm_Data_Const(3)=0x05,0x41,0x00,0x00,0x01
+Ext_User_Prm_Data_Ref(7)=1
+
+Prm_Block_Structure_supp=1
+Ident_Maintenance_supp=1
+
+;----- Additional keywords for module assignment
+; --------------
+; !  0  !   1  !
+; !     !      !
+; !     !  AO  !
+; !     !      !
+; --------------
+SlotDefinition
+Slot(1) = "Analog Output" 3 0,1,2,3,4,5,6
+;                         ! !-----+-----!
+;                         !       !           
+;                         !       +-------- permitted modules
+;                         +---------------- default module
+EndSlotDefinition
+
+
+;----- Slave related keywords for DP extensions
+DPV1_Slave=1
+C1_Read_Write_supp=1
+C2_Read_Write_supp=1
+C1_Max_Data_Len=72
+C2_Max_Data_Len=72
+C1_Response_Timeout=400
+C2_Response_Timeout=400
+C1_Read_Write_required=0
+C2_Read_Write_required=0
+C2_Max_Count_Channels=4
+Max_Initiate_PDU_Length=52
+Diagnostic_Alarm_supp=0
+Process_Alarm_supp=0
+Pull_Plug_Alarm_supp=0
+Status_Alarm_supp=0
+Update_Alarm_supp=0
+Manufacturer_Specific_Alarm_supp=0
+Extra_Alarm_SAP_supp=0
+Alarm_Sequence_Mode_Count=0
+Alarm_Type_Mode_supp=0
+Diagnostic_Alarm_required=0
+Process_Alarm_required=0
+Pull_Plug_Alarm_required=0
+Status_Alarm_required=0
+Update_Alarm_required=0
+Manufacturer_Specific_Alarm_required=0
+DPV1_Data_Types=0
+WD_Base_1ms_supp=0
+Check_Cfg_Mode=0
+
+
+
+
+

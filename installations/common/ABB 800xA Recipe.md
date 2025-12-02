@@ -1,0 +1,1 @@
+[ABB 800xA Recipe](obsidian://vault/automation/ABB%20800xA%20Recipe)

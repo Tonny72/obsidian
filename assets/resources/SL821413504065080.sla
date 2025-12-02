@@ -1,0 +1,69 @@
+; LICENSE FILE
+; FEATURE <feature> <licmr> <version> <expdate> <#user> <swkey> <option> <MID>
+;
+; %CUSTOMER_NAME=SCR - Sibelco nv%
+; %CUSTOMER_CONTACT=%
+; %CUSTOMER_ADDRESS=Joseph Smeetslaan 282%
+; %CUSTOMER_CITY=3630 MAASMECHELEN%
+; %CUSTOMER_STATE=%
+; %CUSTOMER_COUNTRY=Belgium%
+; %CUSTOMER_PHONE=%
+; %CUSTOMER_FAX=%
+; %CUSTOMER_EMAIL=%
+;
+; %ABB_COMPANY_NAME=ABB B.V.%
+; %ABB_CONTACT_NAME=Alain Ekchian%
+; %ABB_CONTACT_ADDRESS=Mon Plaisir 40%
+; %ABB_CONTACT_CITY=Etten-Leur%
+; %ABB_CONTACT_STATE= %
+; %ABB_CONTACT_COUNTRY=Netherlands%
+; %ABB_CONTACT_PHONE=%
+; %ABB_CONTACT_FAX=%
+; %ABB_CONTACT_EMAIL=alain.ekchian@be.abb.com%
+;
+;
+; %LICENSE_CERT=SL821413504065080%
+; %CREATION_DATE=2010-Aug-06 04:35:41 AM%
+;
+;
+; %SYSTEM_ID=SID22790%
+; %SYSTEM_NAME=Control System%
+; %SOFA_COMMENT=%
+;
+;
+; %GROUP=800xA Asset Optimization%
+;
+FEATURE AO_NET_MON        EBPAlm 5.0    1-Jan-00    0      5858EEA8FA5C84AB7D6D ""              60958
+;
+; %GROUP=800xA Control and IO%
+;
+FEATURE CPT_CON_BLD       EBPAlm 5.0    1-Jan-00    0      F6543DBE1E7268775D3E ""              60958
+FEATURE OPC_SRV_AC800M    EBPAlm 5.0    1-Jan-00    0      3E7178CA6BD311BC98A9 ""              60958
+;
+; %GROUP=800xA Core%
+;
+FEATURE 800_OPC_SRVR      EBPAlm 5.0    1-Jan-00    1      11118871A55E9E8E4D57 ""              60958
+FEATURE ACCESS_CNTL       EBPAlm 5.0    1-Jan-00    0      124631BEB1C68CB51512 ""              60958
+FEATURE CON_PLC           EBPAlm 5.0    1-Jan-00    0      331352AE4B5641D732E6 ""              60958
+FEATURE CON_PLC_DIAL      EBPAlm 5.0    1-Jan-00    5      F5E2E3F2F6E265DF5938 ""              60958
+FEATURE CORE_SYSTEM       EBPAlm 5.0    1-Jan-00    0      D1D3F12764E54E26451C ""              60958
+FEATURE DIG_SIGN          EBPAlm 5.0    1-Jan-00    0      D7737FEA69CCD11E7D11 ""              60958
+FEATURE SNAP_SH_REPORTS   EBPAlm 5.0    1-Jan-00    0      B2ACA17594C87AA5B413 ""              60958
+FEATURE AUDIT_TRAIL       EBPAlm 5.0    1-Jan-00    0      B29EF6CF36EBA9F8D3A8 ""              60958
+FEATURE CALC_SRVR         EBPAlm 5.0    1-Jan-00    0      18FDAD26EA9CAF22C79D ""              60958
+FEATURE MSG_SRVR          EBPAlm 5.0    1-Jan-00    0      33AC336B81E7E2B187E1 ""              60958
+FEATURE TAGS              EBPAlm 5.0    1-Jan-00    80     5AFD116926933AC9D3B9 ""              60958
+;
+; %GROUP=800xA Engineering%
+;
+FEATURE ENG_BASE          EBPAlm 5.0    1-Jan-00    1      5F4649DAB164B2E872AF ""              60958
+FEATURE ENG_BDM           EBPAlm 5.0    1-Jan-00    1      FFE9F6B737A1DA5131A1 ""              60958
+FEATURE ENG_GRAPH_BLDR    EBPAlm 5.0    1-Jan-00    1      FD51436531B17715BC38 ""              60958
+FEATURE ENG_GRAPH_BLDR_PG2 EBPAlm 5.0    1-Jan-00    1      9BB1BBAFB1FBDF85E3AD ""              60958
+FEATURE ENG_WPL           EBPAlm 5.0    1-Jan-00    1      A97C6B7237DC8F9B3598 ""              60958
+;
+; %GROUP=800xA Operations%
+;
+FEATURE OPERATOR_WPL      EBPAlm 5.0    1-Jan-00    1      1CC365293A3159EB49CD ""              60958
+;
+; %CIV=4b3725d3aaf48eab9e96f563b26effb271da554a3f25852a17a679e731c960f4960fba5c301fb76a%

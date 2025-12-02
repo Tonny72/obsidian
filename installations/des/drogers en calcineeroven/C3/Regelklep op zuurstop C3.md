@@ -1,0 +1,3 @@
+- Nippon gasses wil het paneel C3 wijzigen van een open/dicht klep naar een regelklep (idem C2) #O2, #C3
+- ![image.png](assets/images/image_1729137366208_0\.jpg)
+-

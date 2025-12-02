@@ -1,0 +1,53 @@
+;*********************************************************************
+;**                                                                 **
+;**          GSD Datei for SITRANS P, SIEMENS AG                    **
+;**          MLFB: 7MF4*32-...ZP01                                  **
+;**          Stand: 12.04.99  V1.1 SX                                       **
+;**          SIP1804B.GSD                                           **
+;*********************************************************************
+;
+#Profibus_DP
+GSD_Revision = 1
+Station_Type = 0
+Protocol_Ident = 0
+Vendor_Name = "SIEMENS AG"
+Model_Name = "SITRANS P"
+Revision = "V1.1"
+Ident_Number = 0x804B
+Hardware_Release = "A01"
+Software_Release = "Z01"
+31.25_supp = 1
+45.45_supp = 1
+93.75_supp = 1		;for Pepperl and Fuchs coupler 
+MaxTsdr_31.25 = 100
+MaxTsdr_45.45=250
+MaxTsdr_93.75 = 1000 	;for Pepperl and Fuchs coupler
+Repeater_Ctrl_Sig = 0
+Implementation_Type = "SPC4/ITEC"
+Bitmap_Device = "SIP804BN"
+;********************************************************************
+;**               Slave specific Data                              **
+;********************************************************************
+Freeze_Mode_supp = 0 
+Sync_Mode_supp = 0 
+Auto_Baud_supp = 0
+Set_Slave_Add_supp = 1
+Min_Slave_Intervall = 100
+;********************************************************************
+;**          User spezifische Parametrier-Daten                    **
+;********************************************************************
+User_Prm_Data_Len = 3
+Ext_User_Prm_Data_Const(0) = 0x00 ,0x00 ,0x00  
+;********************************************************************
+;**               Compact Station                                  **
+;********************************************************************
+Modular_Station = 0
+Max_Module = 1
+Max_Input_Len = 5
+Max_Output_Len = 0
+Max_Data_Len = 5
+Max_Diag_Data_Len = 32	;diag 
+Slave_Family = 12
+Module = "Standard" 0x94
+EndModule
+

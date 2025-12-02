@@ -1,0 +1,1 @@
+![Exported image](Exported%20image%2020250721193851-0.png) ![Machine generated alternative text ABB_M3_v11docAB...](Exported%20image%2020250721193851-1.png) ![Machine generated alternative text Sibelco Europe ...](Exported%20image%2020250721193855-2.png)

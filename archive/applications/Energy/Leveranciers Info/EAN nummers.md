@@ -1,0 +1,1 @@
+[EAN nummers](obsidian://vault/automation/EAN%20nummers)

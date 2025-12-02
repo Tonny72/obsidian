@@ -1,0 +1,176 @@
+---
+date created: 2024-07-24
+description: Sequentie van Hydro Lijn1-2
+date modified: 2025-09-09
+---
+[[installations/des/Natzand/Hydro/processbeschrijving/Sequentie SEQ_Hydro_Lijn_1_2 diagram]]
+
+- #### S1
+- Zet alarmen uit:
+	- HH en LL van [[installations/des/Natzand/Hydro/processbeschrijving/HY_FT9]],
+	- HH en LL van [[HY_FT10]],
+	- HH en LL van [[HY_FT11]]
+	- HH en LL van [[HY_FT12]]
+- Start klasseerwater
+- ##### S1.Tr1
+- staptijd > 5 s
+- en [[HY_PT2]] > L
+- en [[SEQ_M31]] is in productiestap
+- en [[S_Seq_Lijn_1_2]] vraagt voeding
+- en [[S_SEQ_Lijn_M34]] is in productiestap of *HY_M31_Keuze* is buiten
+  => Spring naar [[#S2]]
+  ---
+- #### S2
+- Vrijgave Water Regelaars voor M31 en M34 Sizer
+- ##### S2.Tr2
+- Wacht 30 seconden
+  => Spring naar [[#S3]]
+  ---
+- #### S3
+- Vrijgave Water Regelaars voor M32 Sizer
+- ##### S3.Tr3
+- Wacht 30 seconden
+  => Spring naar [[#S5]]
+  ---
+- #### S5
+- Sluit [[installations/des/Natzand/Hydro/processbeschrijving/HY_KL10]]
+- ##### S5.Tr5
+- Wacht 5 minuten als [[HY_ZP39]] niet draait.
+- Wacht 30 seconden als [[HY_ZP39]] draait.
+  => Spring naar [[#S6]]
+  ---
+- #### S6
+- Start [[installations/des/Natzand/Hydro/processbeschrijving/HY_ZP36]]
+- ##### S6.Tr6
+- [[installations/des/Natzand/Hydro/HY_ZP38]] draait
+- en staptijd > 30 seconden
+- en keuze = Z2
+  => spring naar [[#S7]]
+- ##### S6.Tr60
+- [[installations/des/Natzand/Hydro/HY_ZP38]] draait
+- en staptijd > 30 seconden
+- en keuze = Z1
+  => Spring naar [[#S70]]
+  ---
+- #### S7
+- Start [[HY_Z2]]
+- ##### S7.Tr7
+- [[HY_Z2]] draait
+- en staptijd > 5 seconden
+- en [[HY_LT2]] > H
+  => Spring naar [[#S8]]
+  ---
+- #### S70
+- Start [[HY_Z1]]
+- ##### S70.Tr70
+- [[HY_Z1]] draait
+- en staptijd > 5 seconden
+- [[HY_LT1]] > H
+  => Spring naar [[#S71]]
+  ---
+- #### S71
+- Open [[HY_KL7]]
+- ##### S71.Tr71
+- Wacht 5 seconden
+  => Spring naar [[#S8]]
+  ---
+- #### S8
+- Open [[installations/des/Natzand/Hydro/processbeschrijving/HY_KL9]]
+- ##### S8.Tr8
+	- Wacht 5 seconden
+	  => Spring naar [[#S9]]
+	  ---
+- #### S9
+- Open [[HY_KL38]]
+- ##### S9.Tr9
+- Staptijd > 10 seconden
+- en [[HY_KL38]] is open
+  => Spring naar [[#S10]]
+  ---
+- #### S10
+- Start [[HY_ZP33]]
+- Start Jetwater L1_2
+- #### S11
+- Start [[installations/des/Natzand/Hydro/processbeschrijving/HY_ZP34]]
+- Start [[WV_LPD2]]
+- Start [[installations/des/Natzand/Hydro/processbeschrijving/HY_BP1]]
+- #### S12
+- Geen actie
+- #### S75
+- Open [[HY_KL_ZP_BW]]
+- #### S76
+- Start [[installations/des/Natzand/Hydro/processbeschrijving/HY_ZP32|HY_ZP32]]
+- #### S13
+- Zet alarmen aan:
+	- HH en LL van [[installations/des/Natzand/Hydro/processbeschrijving/HY_FT9]],
+	- HH en LL van [[HY_FT10]],
+	- HH en LL van [[HY_FT11]]
+	- HH en LL van [[HY_FT12]]
+- Start [[HY_ZP30]]
+- #### S14
+- Start [[SEQ_M31]]
+- Start [[HY_ZP31]]
+- #### S15
+- Start [[SEQ_M31]]
+- #### S16
+- Start [[HY_ZP31]]
+- #### S17
+- Open [[HY_SVA446]]
+- #### S18
+- Start [[HY_PU442]]
+- #### S50
+- Wacht op doorstart
+- #### S51
+- Open [[installations/des/Natzand/Hydro/processbeschrijving/HY_KL10|HY_KL10]]
+- [[HY_DIC1]].Track = 0 (vrijgave voeding)
+- [[HY_DIC2]].Track = 0 (vrijgave voeding)
+- [[HY_DIC3]].Track = 0 (vrijgave voeding)
+- [[HY_DIC4]].Track = 0 (vrijgave voeding)
+- [[HY_DIC9]].Track = 0 (vrijgave voeding)
+- #### S52
+- Sluit [[installations/des/Natzand/Hydro/processbeschrijving/HY_KL9|HY_KL9]]
+- *HY_Voeding* = 1 (voeding aan)
+- #### S95
+- Indien doelsilo M31 = 1000 of 1001 => Sluit [[H1_SVA446]]
+- Indien doelsilo M31 = 1000 of 1001 => Stop [[H1_PU442]]
+- #### S100
+- Productiestap
+- #### S101
+- *HY_voeding* = 0 (voeding uit)
+- #### S102
+- [[HY_DIC2]].Track = 1
+- [[HY_DIC4]].Track = 1
+- #### Doelsilo is een betonnen of een metalen silo
+- #### S103
+- Stop [[installations/des/Natzand/Hydro/processbeschrijving/HY_ZP32|HY_ZP32]]
+- Stop [[installations/des/Natzand/Hydro/processbeschrijving/HY_ZP34|HY_ZP34]]
+- *Doorstap kleppen Lijn1_2* = 1
+- #### S104
+- Open [[HY_KL30]]
+- #### S105
+- Sluit [[HY_ZP32_BW]]
+- Stop [[installations/des/Natzand/Hydro/processbeschrijving/HY_BP1]]
+- Sluit [[HY_KL31]]
+- #### S106
+- Start [[installations/des/Natzand/Hydro/processbeschrijving/HY_ZP34|HY_ZP34]]
+- *Doorstap kleppen Lijn1_2* = 0
+- #### Doesilo is Maat
+- #### S113
+	- Start [[installations/des/Natzand/Hydro/processbeschrijving/HY_BP1]]
+	- Open [[HY_KL31]]
+	- *Doorstap kleppen Lijn1_2* = 1
+- #### S114
+- Stop [[installations/des/Natzand/Hydro/processbeschrijving/HY_ZP34|HY_ZP34]]
+- Start [[installations/des/Natzand/Hydro/processbeschrijving/HY_BP1|HY_BP1]]
+- Sluit [[HY_KL30]]
+- Open [[HY_KL31]]
+- #### S115
+- Open [[HY_KL_ZP32_BW]]
+- Start [[installations/des/Natzand/Hydro/processbeschrijving/HY_ZP34|HY_ZP34]]
+- #### S116
+- Start [[HY_ZP12]]
+- *Doorstat kleppen Lijn1_2* = 0
+- #### S120
+- [[HY_DIC2]].Track = 0
+- [[HY_DIC4]].Track = 0
+- *HY_Voeding* = 1 (voeding aan)

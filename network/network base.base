@@ -1,0 +1,17 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.folder.contains("network")
+    order:
+      - file.name
+      - ip
+      - description
+      - file.path
+    sort:
+      - property: ip
+        direction: ASC
+    columnSize:
+      note.ip: 181
+      note.description: 301

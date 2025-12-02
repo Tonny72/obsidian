@@ -1,0 +1,30 @@
+tags:: [[dev/SSH]]
+
+- ## Boek volgorde design patterns
+- ## Creational Patterns
+- Abstract Factory
+- Builder
+- Factory Method
+- Prototype
+- Singleton
+- ## Structural Patterns
+- Adapter
+- Bridge
+- Composite
+- Decorator
+- Facade
+- Flyweight
+- Proxy
+- ## Behavioral Patterns
+- [Behavioral Design Patterns (refactoring.guru)](https://refactoring.guru/design-patterns/behavioral-patterns)
+	- Chain of Resposibility
+	- Command
+	- Interpreter
+	- Iterator
+	- Mediator
+	- Memento
+	- Observer
+	- State
+	- Stategy
+	- Template Method
+	- Visitor

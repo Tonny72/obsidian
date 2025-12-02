@@ -1,0 +1,1 @@
+[Energy](obsidian://vault/automation/Energy)

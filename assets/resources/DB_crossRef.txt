@@ -1,0 +1,1988 @@
+***********************
+*  DB CROSSREFERENCE  *
+***********************
+
+AIC   AIC408/C_DIFF1
+   CALC_VAL           O  PC12.8.1.11:20  -187
+   VALUE              I  PC12.8.1.13:1  -187
+ 
+AIC   AIC409/C_DIFF2
+   CALC_VAL           O  PC12.8.1.12:20  -187
+   VALUE              I  PC12.8.1.14:1  -187
+ 
+AIC   AIC410/C_DIFF3
+   CALC_VAL           O  PC12.8.1.13:20  -187
+ 
+AIC   AIC411/C_DIFF4
+   CALC_VAL           O  PC12.8.1.14:20  -187
+ 
+AIC   AIC542/C_NOX
+   CALC_VAL           O  PC12.12.1.1:20  -339
+   VALUE              I  PC12.12.1.2:2  -339
+ 
+AIC   AIC543/C_NOX2
+   CALC_VAL           O  PC12.12.1.2:20  -339
+ 
+AIC   AIC544/C_NOX3
+   CALC_VAL           O  PC12.12.1.5:20  -339
+ 
+AIC   AIC558/C_FT20_VB_AIC
+   VALUE>H1           I  PC12.8.35.7:12  -1
+   VALUE<L1           I  PC12.8.35.7:22  -1
+   HI_LIM1            O  PC12.8.35.8:21  -2
+   LO_LIM1            O  PC12.8.35.8:22  -2
+ 
+AIXS   AX109.3/C_FT61
+   VALUE              I  PC12.2.6.1:I1  -14
+ 
+AIXS   AX109.10/C_FT71
+   VALUE              I  PC12.4.3.2:I1  -146
+                      I  PC12.4.4.2:I1  -147
+                      I  PC12.8.20.8:I1  -219
+                      I  PC12.11.1.3:I1  -321
+ 
+AIXS   AX109.11/C_PT71
+   VALUE              I  PC12.4.1.2:I1  -144
+                      I  PC12.6.2.2:I1  -173
+                      I  PC12.8.26.8:I1  -231
+                      I  PC12.8.27.8:I1  -233
+                      I  PC12.11.2.3:MV  -323
+                      I  PC12.8.35.1:I1  -1
+ 
+AIXS   AX109.13/C_LT72
+   VALUE              I  PC12.11.1.1:1  -321
+ 
+AIXS   AX109.14/C_TT71
+   VALUE              I  PC12.11.1.5:I1  -322
+ 
+AOXS   AX109.16/C_FO104
+   VALUE              O  PC12.11.12.2:13  -338
+ 
+AIXS   AX110.3/C_FT101
+   VALUE              I  PC12.11.9.2:MV  -334
+ 
+AIXS   AX110.4/C_FT102
+   VALUE              I  PC12.11.10.10:MV  -336
+                      I  PC12.11.12.1:1  -338
+                      I  PC12.11.12.2:11  -338
+ 
+AIXS   AX110.5/C_FT103
+   VALUE              I  PC12.11.10.20:MV  -337
+                      I  PC12.11.12.1:2  -338
+ 
+AIXS   AX110.8/C_FT104
+   VALUE              I  PC12.12.2.6:I1  -340
+ 
+AIXS   AX110.10/C_VT71
+   VALUE              I  PC12.11.1.7:1  -322
+                      I  PC12.13.1.2:I  -341
+ 
+AOXS   AX110.15/C_FO101
+   VALUE              O  PC12.11.9.3:13  -334
+ 
+AOXS   AX110.16/C_FO102
+   VALUE              O  PC12.11.10.10:OUTP  -336
+ 
+AOXS   AX110.17/C_FO103
+   VALUE              O  PC12.11.10.20:OUTP  -337
+ 
+AIXS   AX113.2/C_IT51
+   VALUE              I  PC12.8.12.10:1  -204
+ 
+AIXS   AX113.5/C_PT2
+   VALUE              I  PC12.8.1.11:1  -187
+ 
+AIXS   AX113.7/C_TT2
+   VALUE              I  PC12.8.31.5:I1  -238
+ 
+AIXS   AX113.10/C_PT11
+   VALUE              I  PC12.8.1.13:2  -187
+                      I  PC12.11.5.2:MV  -328
+ 
+AIXS   AX113.11/C_PT12
+   VALUE              I  PC12.8.1.11:2  -187
+                      I  PC12.8.1.12:1  -187
+ 
+AIXS   AX113.14/C_FT21
+   VALUE              I  PC12.11.3.3:MV  -324
+ 
+AOXS   AX113.16/C_SO21
+   VALUE              O  PC12.11.8.4:13  -333
+ 
+AOXS   AX113.17/C_LO21
+   VALUE              O  PC12.11.4.2:OUTP  -326
+ 
+AOXS   AX113.18/C_FO21
+   VALUE              O  PC12.11.3.3:OUTP  -324
+ 
+AIXS   AX114.1/C_GT21
+   VALUE              I  PC12.8.44.8:I1  -247
+                      I  PC12.11.4.5:1  -327
+                      I  PC12.11.8.1:1  -333
+ 
+AIXS   AX114.2/C_LT21
+   VALUE              I  PC12.11.4.2:MV  -326
+                      I  PC12.11.4.3:I  -326
+                      I  PC12.11.4.4:I  -326
+ 
+AIXS   AX114.5/C_PT31
+   VALUE              I  PC12.8.1.14:2  -187
+                      I  PC12.11.6.2:MV  -329
+                      I  PC12.11.6.3:I1  -329
+ 
+AIXS   AX114.11/C_ST51
+   VALUE              I  PC12.4.12.1:I1  -155
+                      I  PC12.8.13.8:I1  -205
+                      I  PC12.10.1.1:MV  -320
+ 
+AIXS   AX114.14/C_PT32
+   VALUE              I  PC12.6.2.1:I1  -173
+                      I  PC12.8.1.12:2  -187
+                      I  PC12.11.7.2:MV  -331
+                      I  PC12.8.35.2:I1  -1
+ 
+AOXS   AX114.15/C_SO51
+   VALUE              O  PC12.10.1.3:13  -320
+ 
+AOXS   AX114.16/C_SOP1_2
+   VALUE              O  PC12.11.2.5:13  -323
+ 
+AOXS   AX114.17/C_SO_C1
+   VALUE              O  PC12.11.7.2:OUTP  -331
+ 
+AIXS   AX115.1/C_TT3
+   VALUE              I  PC12.6.2.3:I1  -173
+ 
+AIXS   AX115.7/C_O2
+   VALUE              I  PC12.12.1.3:2  -339
+                      I  PC12.8.35.3:I1  -1
+ 
+AIXS   AX115.8/C_NO
+   VALUE              I  PC12.12.1.1:1  -339
+ 
+AIXS   AX115.9/C_NO2
+   VALUE              I  PC12.12.1.1:2  -339
+ 
+AIXS   AX115.12/C_IT1_AI
+   VALUE              I  PC12.8.1.10:1  -187
+ 
+AIXS   AX115.13/C_SNT1_AI
+   VALUE              I  PC12.11.7.8:1  -332
+ 
+DIC   DIC1430/C_K_POMP1
+   VALUE              I  PC12.1.1.2:12  -3
+                      I  PC12.7.1.1:I  -181
+                      I  PC12.8.24.10:24  -227
+                      I  PC12.8.25.10:32  -229
+   CALC_VAL           O  PC12.1.1.3:5  -3
+   SELECTED           I  PC12.1.1.5:1  -3
+   BLOCKED            O  PC12.1.1.5:21  -3
+ 
+DIC   DIC1431/C_K_POMP2
+   VALUE              I  PC12.1.1.2:22  -3
+                      I  PC12.7.1.2:I  -181
+                      I  PC12.8.24.10:32  -227
+                      I  PC12.8.25.10:24  -229
+   CALC_VAL           O  PC12.1.1.4:5  -3
+   SELECTED           I  PC12.1.1.5:2  -3
+   BLOCKED            O  PC12.1.1.5:22  -3
+ 
+DIC   DIC1432/C_2_DIC
+   VALUE              O  PC12.8.2.1:20  -188
+ 
+DIC   DIC1433/C_GASKLEP
+   CALC_VAL           O  PC12.8.33.1:5  -241
+ 
+DIC   DIC1434/C_STT_BR_DIC
+   VALUE              I  PC12.8.36.3:S  -243
+                      I  PC12.8.36.4:R  -243
+   CALC_VAL           O  PC12.8.36.3:5  -243
+   SELECTED           I  PC12.8.37.2:1  -244
+   BLOCKED            O  PC12.8.37.2:21  -244
+ 
+DIC   DIC1435/C_STP_BR_DIC
+   VALUE              I  PC12.8.36.3:R  -243
+                      I  PC12.8.36.4:S  -243
+   CALC_VAL           O  PC12.8.36.4:5  -243
+   SELECTED           I  PC12.8.37.2:2  -244
+   BLOCKED            O  PC12.8.37.2:22  -244
+ 
+DIC   DIC1436/CT_K_AFVAL
+   SELECTED           I  PC12.2.7.1:1  -15
+   BLOCKED            O  PC12.2.7.1:21  -15
+   VALUE              I  PC12.2.7.2:S  -15
+                      I  PC12.2.7.2:R  -15
+   CALC_VAL           O  PC12.2.7.2:5  -15
+ 
+DIC   DIC1500/C_Keuze_niet_zeven
+   BLOCKED            O  PC12.1.2.1:22  -4
+   SELECTED           I  PC12.1.2.15:2  -4
+                      I  PC12.1.2.17:11  -4
+                      I  PC12.1.2.18:12  -4
+                      I  PC12.3.120.2:1  -138
+                      I  PC12.3.121.2:2  -139
+   CALC_VAL           O  PC12.1.2.15:20  -4
+   VALUE              I  PC12.3.1.1:11  -18
+                      I  PC12.3.1.2:21  -18
+                      I  PC12.3.1.3:11  -18
+                      I  PC12.3.42:CONDSTA2  -60
+                      I  PC12.3.42.3:2  -60
+                      I  PC12.3.42.4:2  -60
+                      I  PC12.14.42:JCOND2  -354
+ 
+DIC   DIC1501/C_Keuze_M62_M72
+   BLOCKED            O  PC12.1.2.1:23  -4
+   SELECTED           I  PC12.1.2.15:11  -4
+                      I  PC12.1.2.17:2  -4
+                      I  PC12.1.2.18:11  -4
+                      I  PC12.3.120.2:2  -138
+                      I  PC12.3.121.2:3  -139
+   CALC_VAL           O  PC12.1.2.17:20  -4
+   VALUE              I  PC12.3.1.1:21  -18
+                      I  PC12.3.1.1:41  -18
+                      I  PC12.3.1.1:51  -18
+                      I  PC12.3.1.2:11  -18
+                      I  PC12.3.1.2:31  -18
+                      I  PC12.3.1.2:51  -18
+                      I  PC12.3.1.3:21  -18
+ 
+DIC   DIC1502/C_Keuze_M72T
+   BLOCKED            O  PC12.1.2.1:24  -4
+   SELECTED           I  PC12.1.2.15:12  -4
+                      I  PC12.1.2.17:12  -4
+                      I  PC12.1.2.18:2  -4
+                      I  PC12.3.120.2:3  -138
+                      I  PC12.3.121.2:4  -139
+   CALC_VAL           O  PC12.1.2.18:20  -4
+   VALUE              I  PC12.3.1.1:31  -18
+                      I  PC12.3.1.2:41  -18
+                      I  PC12.3.1.3:31  -18
+                      I  PC12.3.48:CONDSTA1  -66
+                      I  PC12.3.48.3:2  -66
+                      I  PC12.3.48.4:2  -66
+                      I  PC12.3.64:CONDSTA2  -82
+                      I  PC12.3.64.3:2  -82
+                      I  PC12.3.64.4:2  -82
+                      I  PC12.14.44:JCOND2  -355
+                      I  PC12.14.64:JCOND2  -360
+ 
+DIC   DIC1599/C_NOX_STT
+   SELECTED           I  PC12.12.2.1:1  -340
+   BLOCKED            O  PC12.12.2.1:21  -340
+   VALUE              I  PC12.12.2.2:1  -340
+                      I  PC12.12.2.2:11  -340
+   CALC_VAL           O  PC12.12.2.2:20  -340
+ 
+DIC   DIC1755/C_O2_2min._kl.dan_8%
+   CALC_VAL           O  PC12.8.35.6:O  -1
+ 
+DIXS   DX100.1/CT1_L_DI
+   VALUE              I  PC12.3.17:CONDSTA1  -35
+                      I  PC12.3.17.2:I  -35
+                      I  PC12.3.22:CONDSTA1  -40
+                      I  PC12.3.22.2:I  -40
+                      I  PC12.9.1.5:2  -267
+                      I  PC12.9.1.7:2  -267
+                      I  PC12.9.1.10:INDONOP  -268
+                      I  PC12.9.1.19:14  -269
+                      I  PC12.9.1.19:24  -269
+                      I  PC12.9.3.10:1  -273
+                      I  PC12.14.22:CONDSTA1  -348
+                      I  PC12.14.22.2:I  -348
+ 
+DIXS   DX100.2/CT1_R_DI
+   VALUE              I  PC12.3.18:CONDSTA1  -36
+                      I  PC12.3.18.2:I  -36
+                      I  PC12.3.21:CONDSTA1  -39
+                      I  PC12.3.21.2:I  -39
+                      I  PC12.9.1.9:14  -267
+                      I  PC12.9.1.9:24  -267
+                      I  PC12.9.1.15:2  -268
+                      I  PC12.9.1.17:2  -268
+                      I  PC12.9.1.20:INDONOP  -269
+                      I  PC12.9.3.10:2  -273
+                      I  PC12.14.18:CONDSTA1  -347
+                      I  PC12.14.18.2:I  -347
+ 
+DIXS   DX100.3/CT2_L_DI
+   VALUE              I  PC12.3.9:CONDSTA1  -27
+                      I  PC12.3.9.2:I  -27
+                      I  PC12.3.14:CONDSTA1  -32
+                      I  PC12.3.14.2:I  -32
+                      I  PC12.9.2.5:2  -270
+                      I  PC12.9.2.7:2  -270
+                      I  PC12.9.2.10:INDONOP  -271
+                      I  PC12.9.2.19:14  -272
+                      I  PC12.9.2.19:24  -272
+                      I  PC12.9.3.10:3  -273
+                      I  PC12.14.14:CONDSTA1  -346
+ 
+DIXS   DX100.4/CT2_R_DI
+   VALUE              I  PC12.3.10:CONDSTA1  -28
+                      I  PC12.3.10.2:I  -28
+                      I  PC12.3.13:CONDSTA1  -31
+                      I  PC12.3.13.2:I  -31
+                      I  PC12.9.2.9:14  -270
+                      I  PC12.9.2.9:24  -270
+                      I  PC12.9.2.15:2  -271
+                      I  PC12.9.2.17:2  -271
+                      I  PC12.9.2.20:INDONOP  -272
+                      I  PC12.9.3.10:4  -273
+                      I  PC12.14.10:CONDSTA1  -345
+                      I  PC12.14.10.2:I  -345
+ 
+DIXS   DX100.5/CT3_DI
+   VALUE              I  PC12.3.30:CONDSTA1  -48
+                      I  PC12.3.30.2:I  -48
+                      I  PC12.9.3.6:12  -273
+                      I  PC12.9.3.7:12  -273
+                      I  PC12.9.3.9:INDONOP  -274
+                      I  PC12.9.4.7:24  -275
+                      I  PC12.14.30:CONDSTA1  -349
+                      I  PC12.14.30.2:I  -349
+ 
+DIXS   DX100.6/CT4_DI
+   VALUE              I  PC12.3.32:CONDSTA1  -50
+                      I  PC12.3.32.2:I  -50
+                      I  PC12.9.4.6:12  -275
+                      I  PC12.9.4.7:12  -275
+                      I  PC12.9.4.9:INDONOP  -276
+                      I  PC12.9.5.8:24  -277
+                      I  PC12.14.32:CONDSTA1  -350
+                      I  PC12.14.32.2:I  -350
+ 
+DIXS   DX100.7/CT5_DI
+   VALUE              I  PC12.3.34:CONDSTA1  -52
+                      I  PC12.3.34.2:I  -52
+                      I  PC12.9.5.5:2  -277
+                      I  PC12.9.5.7:2  -277
+                      I  PC12.9.5.9:INDONOP  -278
+                      I  PC12.9.6.8:24  -279
+                      I  PC12.14.34:CONDSTA1  -351
+                      I  PC12.14.34.2:I  -351
+ 
+DIXS   DX100.8/CT6_DI
+   VALUE              I  PC12.3.36:CONDSTA1  -54
+                      I  PC12.3.36.2:I  -54
+                      I  PC12.9.6.5:2  -279
+                      I  PC12.9.6.7:2  -279
+                      I  PC12.9.6.9:INDONOP  -280
+                      I  PC12.9.8.7:21  -282
+                      I  PC12.14.36:CONDSTA1  -352
+                      I  PC12.14.36.2:I  -352
+ 
+DIXS   DX100.9/CT7_DI
+   VALUE              I  PC12.3.42:CONDSTA1  -60
+                      I  PC12.3.42.2:I  -60
+                      I  PC12.9.8.6:12  -282
+                      I  PC12.9.8.7:12  -282
+                      I  PC12.9.8.9:INDONOP  -283
+                      I  PC12.9.10.7:21  -285
+                      I  PC12.14.42:CONDSTA1  -354
+                      I  PC12.14.42.2:I  -354
+ 
+DIXS   DX100.10/CT8_DI
+   VALUE              I  PC12.3.80:CONDSTA1  -98
+                      I  PC12.3.80.2:I  -98
+                      I  PC12.9.10.3:2  -285
+                      I  PC12.9.10.6:12  -285
+                      I  PC12.9.10.7:12  -285
+                      I  PC12.9.10.9:INDONOP  -286
+                      I  PC12.9.12.7:21  -287
+                      I  PC12.14.80:CONDSTA1  -365
+                      I  PC12.14.80.2:I  -365
+ 
+DIXS   DX100.11/CT9_DI
+   VALUE              I  PC12.3.84:CONDSTA1  -102
+                      I  PC12.3.84.2:I  -102
+                      I  PC12.9.12.6:12  -287
+                      I  PC12.9.12.7:12  -287
+                      I  PC12.9.12.9:INDONOP  -288
+                      I  PC12.9.13.1:13  -289
+                      I  PC12.9.14.7:I  -290
+                      I  PC12.14.84:CONDSTA1  -366
+                      I  PC12.14.84.2:I  -366
+ 
+DIXS   DX100.12/CT10_DI
+   VALUE              I  PC12.3.92:CONDSTA1  -110
+                      I  PC12.3.92.2:I  -110
+                      I  PC12.9.14.6:12  -290
+                      I  PC12.9.14.8:12  -290
+                      I  PC12.9.14.10:INDONOP  -291
+                      I  PC12.9.15.8:24  -292
+                      I  PC12.14.90:CONDSTA1  -367
+                      I  PC12.14.90.2:I  -367
+                      I  PC12.14.92:CONDSTA1  -368
+                      I  PC12.14.92.2:I  -368
+ 
+DIXS   DX100.13/CT11_DI
+   VALUE              I  PC12.3.96.2:I  -114
+                      I  PC12.9.15.5:2  -292
+                      I  PC12.9.15.7:2  -292
+                      I  PC12.9.15.9:INDONOP  -293
+                      I  PC12.9.16.8:24  -294
+                      I  PC12.14.96:CONDSTA1  -370
+                      I  PC12.14.96.2:I  -370
+ 
+DIXS   DX100.14/CT12_DI
+   VALUE              I  PC12.3.98:CONDSTA1  -116
+                      I  PC12.3.98.2:I  -116
+                      I  PC12.9.16.5:2  -294
+                      I  PC12.9.16.7:2  -294
+                      I  PC12.9.16.9:INDONOP  -295
+                      I  PC12.9.17.10:1  -297
+                      I  PC12.14.98:CONDSTA1  -371
+                      I  PC12.14.98.2:I  -371
+ 
+DIXS   DX100.15/CT13_DI
+   VALUE              I  PC12.3.100:CONDSTA1  -118
+                      I  PC12.3.100.2:I  -118
+                      I  PC12.8.17.8:24  -213
+                      I  PC12.9.17.5:2  -296
+                      I  PC12.9.17.7:2  -296
+                      I  PC12.9.17.9:INDONOP  -297
+                      I  PC12.14.100:CONDSTA1  -372
+                      I  PC12.14.100.2:I  -372
+ 
+DIXS   DX100.16/CT14_DI
+   VALUE              I  PC12.3.68:CONDSTA1  -86
+                      I  PC12.3.68.2:I  -86
+                      I  PC12.9.22.5:2  -304
+                      I  PC12.9.22.7:2  -304
+                      I  PC12.9.22.21:INDONOP  -305
+                      I  PC12.9.31.10:IB1  -318
+                      I  PC12.14.68:CONDSTA1  -361
+                      I  PC12.14.68.2:I  -361
+ 
+DIXS   DX100.17/CT_23_DI
+   VALUE              I  PC12.9.20.5:2  -301
+                      I  PC12.9.20.7:2  -301
+                      I  PC12.9.20.21:INDONOP  -302
+ 
+DIXS   DX100.18/CT15_DI
+   VALUE              I  PC12.3.64:CONDSTA1  -82
+                      I  PC12.3.64.2:I  -82
+                      I  PC12.9.25.5:2  -307
+                      I  PC12.9.25.7:2  -307
+                      I  PC12.9.25.11:INDONOP  -308
+                      I  PC12.9.26.9:1  -309
+                      I  PC12.14.64:CONDSTA1  -360
+                      I  PC12.14.64.2:I  -360
+ 
+DIXS   DX100.19/CT_21_DI
+   VALUE              I  PC12.9.19.5:2  -299
+                      I  PC12.9.19.7:2  -299
+                      I  PC12.9.19.21:INDONOP  -300
+ 
+DOXS   DX100.21/CT1_L_DO
+   VALUE              I  PC12.3.22:ACTSTA1  -40
+                      I  PC12.9.1.3:2  -267
+                      O  PC12.9.1.9:60  -267
+ 
+DOXS   DX100.22/CT1_R_DO
+   VALUE              I  PC12.3.18:ACTSTA1  -36
+                      I  PC12.9.1.13:2  -268
+                      O  PC12.9.1.19:60  -269
+ 
+DOXS   DX100.23/CT2_L_DO
+   VALUE              I  PC12.3.14:ACTSTA1  -32
+                      I  PC12.9.2.3:2  -270
+                      O  PC12.9.2.9:60  -270
+ 
+DOXS   DX100.24/CT2_R_DO
+   VALUE              I  PC12.3.10:ACTSTA1  -28
+                      I  PC12.9.2.13:2  -271
+                      O  PC12.9.2.19:60  -272
+ 
+DOXS   DX100.25/CT3_DO
+   VALUE              I  PC12.3.30:ACTSTA1  -48
+                      I  PC12.9.3.3:2  -273
+                      O  PC12.9.3.8:20  -273
+ 
+DOXS   DX100.26/CT4_DO
+   VALUE              I  PC12.3.32:ACTSTA1  -50
+                      I  PC12.9.4.3:2  -275
+                      O  PC12.9.4.8:20  -275
+ 
+DOXS   DX100.27/CT5_DO
+   VALUE              I  PC12.3.34:ACTSTA1  -52
+                      I  PC12.9.5.3:2  -277
+                      O  PC12.9.5.8:60  -277
+ 
+DOXS   DX100.28/CT6_DO
+   VALUE              I  PC12.3.36:ACTSTA1  -54
+                      I  PC12.9.6.3:2  -279
+                      O  PC12.9.6.8:60  -279
+ 
+DOXS   DX100.29/CT7_DO
+   VALUE              I  PC12.3.42:ACTSTA1  -60
+                      I  PC12.9.8.3:2  -282
+                      O  PC12.9.8.8:20  -282
+ 
+DOXS   DX100.30/CT8_DO
+   VALUE              I  PC12.3.80:ACTSTA1  -98
+                      O  PC12.9.10.8:20  -285
+ 
+DOXS   DX100.31/CT9_DO
+   VALUE              I  PC12.3.84:ACTSTA1  -102
+                      I  PC12.9.12.3:2  -287
+                      O  PC12.9.12.8:20  -287
+ 
+DOXS   DX100.32/CT10_DO
+   VALUE              I  PC12.3.92:ACTSTA1  -110
+                      I  PC12.9.14.3:2  -290
+                      O  PC12.9.14.9:20  -290
+ 
+DIXS   DX100.33/CT_KL57_O
+   VALUE              I  PC12.3.26:CONDSTA1  -44
+                      I  PC12.3.26.2:I  -44
+                      I  PC12.9.7.10:LSOPN  -281
+                      I  PC12.9.8.7:22  -282
+                      I  PC12.14.40:CONDSTA1  -353
+                      I  PC12.14.40.2:I  -353
+ 
+DIXS   DX100.34/CT_KL57_T
+   VALUE              I  PC12.9.7.10:LSCLS  -281
+ 
+DIXS   DX100.35/CT_KL56_O
+   VALUE              I  PC12.3.50:CONDSTA1  -68
+                      I  PC12.3.50.2:I  -68
+                      I  PC12.9.9.10:LSOPN  -284
+ 
+DIXS   DX100.36/CT_KL56_T
+   VALUE              I  PC12.9.9.10:LSCLS  -284
+ 
+DIXS   DX100.37/CT_KL55A_O_DI
+   VALUE              I  PC12.3.74:CONDSTA1  -92
+                      I  PC12.3.74.2:I  -92
+                      I  PC12.9.12.7:22  -287
+                      I  PC12.9.30.10:LSOPN  -317
+                      I  PC12.14.74:CONDSTA1  -364
+                      I  PC12.14.74.2:I  -364
+ 
+DIXS   DX100.38/CT_KL55A_T_DI
+   VALUE              I  PC12.9.30.10:LSCLS  -317
+ 
+DIXS   DX100.39/CT_KL54_O
+   VALUE              I  PC12.9.13.10:LSOPN  -289
+                      I  PC12.9.14.8:22  -290
+ 
+DIXS   DX100.40/CT_KL54_T
+   VALUE              I  PC12.9.13.10:LSCLS  -289
+ 
+DIXS   DX100.47/CT16_LSH_DI
+   VALUE              I  PC12.9.26.9:2  -309
+ 
+DIXS   DX100.48/CT_16_H_DI
+   VALUE              I  PC12.9.26.12:2  -310
+                      I  PC12.9.26.13:1  -310
+   BLOCKED            O  PC12.9.26.13:22  -310
+ 
+DIXS   DX100.51/CT_14_ZS_DI
+   VALUE              I  PC12.9.23.3:I  -306
+ 
+DOXS   DX100.53/CT11_DO
+   VALUE              I  PC12.3.96:ACTSTA1  -114
+                      I  PC12.9.15.3:2  -292
+                      O  PC12.9.15.8:60  -292
+ 
+DOXS   DX100.54/CT12_DO
+   VALUE              I  PC12.3.98:ACTSTA1  -116
+                      I  PC12.9.16.3:2  -294
+                      O  PC12.9.16.8:60  -294
+ 
+DOXS   DX100.55/CT_14_DO
+   VALUE              I  PC12.3.68:ACTSTA1  -86
+                      I  PC12.9.22.3:2  -304
+                      O  PC12.9.22.20:60  -304
+ 
+DOXS   DX100.56/CT_15_DO
+   VALUE              I  PC12.3.64:ACTSTA1  -82
+                      I  PC12.9.25.3:2  -307
+                      O  PC12.9.25.10:60  -307
+ 
+DOXS   DX100.57/CT_16_DO
+   VALUE              I  PC12.3.72:ACTSTA1  -90
+                      I  PC12.9.26.3:2  -309
+                      O  PC12.9.26.12:20  -310
+ 
+DOXS   DX100.58/CT_16_T_DO
+   VALUE              O  PC12.9.26.13:21  -310
+ 
+DOXS   DX100.59/CT13_DO
+   VALUE              I  PC12.3.100:ACTSTA1  -118
+                      I  PC12.9.17.3:2  -296
+                      O  PC12.9.17.8:60  -296
+ 
+DOXS   DX100.60/CT_KL55B_DO
+   VALUE              I  PC12.3.70:ACTSTA1  -88
+                      O  PC12.9.31.10:OPN  -318
+ 
+DOXS   DX100.61/CT_KL57_DO
+   VALUE              I  PC12.3.26:ACTSTA1  -44
+                      O  PC12.9.7.10:OPN  -281
+ 
+DOXS   DX100.62/CT_KL56_DO
+   VALUE              I  PC12.3.50:ACTSTA1  -68
+                      O  PC12.9.9.10:OPN  -284
+ 
+DOXS   DX100.63/CT_KL55A_DO
+   VALUE              I  PC12.3.74:ACTSTA1  -92
+                      O  PC12.9.30.10:OPN  -317
+ 
+DOXS   DX100.64/CT_KL54_DO
+   VALUE              I  PC12.3.90:ACTSTA1  -108
+                      O  PC12.9.13.10:OPN  -289
+ 
+DIXS   DX103.1/CT_AF_O_DI
+   VALUE              I  PC12.9.17.10:2  -297
+                      I  PC12.9.18.10:LSOPN  -298
+ 
+DIXS   DX103.2/CT_AF_T_DI
+   VALUE              I  PC12.9.18.10:LSCLS  -298
+ 
+DIXS   DX103.4/CT_14_KLO_DI
+   VALUE              I  PC12.9.23.10:LSOPN  -306
+ 
+DIXS   DX103.5/CT_14_KLT_DI
+   VALUE              I  PC12.9.23.10:LSCLS  -306
+ 
+DIXS   DX103.6/CT_16_DI
+   VALUE              I  PC12.3.72:CONDSTA1  -90
+                      I  PC12.3.72.2:I  -90
+                      I  PC12.9.10.7:22  -285
+                      I  PC12.9.26.5:2  -309
+                      I  PC12.9.26.7:2  -309
+                      I  PC12.9.26.11:INDONOP  -310
+                      I  PC12.9.30.10:IB1  -317
+                      I  PC12.14.72:CONDSTA1  -363
+                      I  PC12.14.72.2:I  -363
+ 
+DIXS   DX103.7/CT_17_DI
+   VALUE              I  PC12.3.58:CONDSTA1  -76
+                      I  PC12.3.58.2:I  -76
+                      I  PC12.9.27.5:2  -311
+                      I  PC12.9.27.7:2  -311
+                      I  PC12.9.27.11:INDONOP  -312
+                      I  PC12.14.50:CONDSTA1  -358
+                      I  PC12.14.50.2:I  -358
+ 
+DIXS   DX103.8/CT_17B_DI
+   VALUE              I  PC12.3.60:CONDSTA1  -78
+                      I  PC12.3.60.2:I  -78
+                      I  PC12.9.28.5:2  -313
+                      I  PC12.9.28.7:2  -313
+                      I  PC12.9.28.11:INDONOP  -314
+                      I  PC12.14.52:CONDSTA1  -359
+                      I  PC12.14.52.2:I  -359
+ 
+DIXS   DX103.9/CT_KL55B_O_DI
+   VALUE              I  PC12.3.70:CONDSTA1  -88
+                      I  PC12.3.70.2:I  -88
+                      I  PC12.9.31.10:LSOPN  -318
+                      I  PC12.14.70:CONDSTA1  -362
+                      I  PC12.14.70.2:I  -362
+ 
+DIXS   DX103.10/CT_KL55B_T_DI
+   VALUE              I  PC12.9.31.10:LSCLS  -318
+ 
+DIXS   DX103.11/CT_17_PK_DI
+   VALUE              I  PC12.3.54:CONDSTA1  -72
+                      I  PC12.3.54.2:I  -72
+                      I  PC12.9.32.10:LSOPN  -319
+                      I  PC12.9.32.10:LSCLS  -319
+                      I  PC12.14.46:CONDSTA1  -356
+                      I  PC12.14.46.2:I  -356
+                      I  PC12.14.48:CONDSTA1  -357
+                      I  PC12.14.48.2:I  -357
+ 
+DIXS   DX103.12/CT_18_DI
+   VALUE              I  PC12.9.29.5:2  -315
+                      I  PC12.9.29.7:2  -315
+                      I  PC12.9.29.11:INDONOP  -316
+ 
+DOXS   DX103.21/CT_AF_DO
+   VALUE              O  PC12.9.18.10:OPN  -298
+ 
+DOXS   DX103.22/CT_23_DO
+   VALUE              I  PC12.9.20.3:2  -301
+                      O  PC12.9.20.20:60  -301
+ 
+DOXS   DX103.23/CT_23B_DO
+   VALUE              I  PC12.9.21.21:INDONOP  -303
+                      O  PC12.9.21.20:60  -303
+ 
+DOXS   DX103.24/CT_21_DO
+   VALUE              I  PC12.9.19.3:2  -299
+                      O  PC12.9.19.20:60  -299
+ 
+DOXS   DX103.26/CT_17_DO
+   VALUE              I  PC12.3.58:ACTSTA1  -76
+                      I  PC12.9.27.3:2  -311
+                      O  PC12.9.27.10:60  -311
+ 
+DOXS   DX103.27/CT_17B_DO
+   VALUE              I  PC12.3.60:ACTSTA1  -78
+                      I  PC12.9.28.3:2  -313
+                      O  PC12.9.28.10:60  -313
+ 
+DOXS   DX103.28/CT_14_KL_DO
+   VALUE              O  PC12.9.23.10:OPN  -306
+ 
+DOXS   DX103.29/CT_17_PK_DO
+   VALUE              I  PC12.3.54:ACTSTA1  -72
+                      O  PC12.9.32.10:OPN  -319
+ 
+DOXS   DX103.30/CT_18_DO
+   VALUE              I  PC12.3.104:ACTSTA1  -122
+                      I  PC12.9.29.3:2  -315
+                      O  PC12.9.29.10:60  -315
+ 
+DIXS   DX108.3/C_OPH_DI
+   VALUE              I  PC12.6.3.2:1  -174
+                      I  PC12.8.36.1:1  -243
+ 
+DIXS   DX108.4/C_K_GAS_DI
+   VALUE              I  PC12.8.39.1:1  -245
+ 
+DIXS   DX108.5/C_K_OLIE_DI
+   VALUE              I  PC12.11.10.1:1  -335
+ 
+DIXS   DX108.6/C_K_GAS_OK_DI
+   VALUE              I  PC12.11.9.1:2  -334
+ 
+DIXS   DX108.8/C_BR_IN_DI
+   VALUE              I  PC12.2.6.3:41  -14
+                      I  PC12.4.11:COND  -154
+                      I  PC12.6.3.2:2  -174
+                      I  PC12.6.4.2:I  -175
+                      I  PC12.6.5.1:1  -176
+                      I  PC12.8.34.1:1  -242
+                      I  PC12.8.36.1:2  -243
+                      I  PC12.8.39.2:2  -245
+                      I  PC12.11.9.1:1  -334
+                      I  PC12.11.10.1:2  -335
+                      I  PC12.12.2.7:7  -340
+ 
+DIXS   DX108.9/C_O_BR_DI
+   VALUE              I  PC12.8.39.3:1  -245
+ 
+DIXS   DX108.17/C_GA_T_DI
+   VALUE              I  PC12.8.33.1:R  -241
+ 
+DIXS   DX108.18/C_GA_O_DI
+   VALUE              I  PC12.8.33.1:S  -241
+ 
+DOXS   DX108.21/C_NN_DO
+   VALUE              O  PC12.8.37.1:21  -244
+ 
+DOXS   DX108.22/C_VB_DO
+   VALUE              O  PC12.8.35.4:20  -1
+ 
+DOXS   DX108.24/C_BR_IN_DO
+   VALUE              O  PC12.8.36.5:20  -243
+ 
+DOXS   DX108.25/C_VU_DO
+   VALUE              O  PC12.8.34.1:21  -242
+ 
+DOXS   DX108.27/C_VENT_C14_IN
+   VALUE              O  PC12.8.14.10:21  -208
+ 
+DOXS   DX108.28/C_KL23_DO
+   VALUE              O  PC12.8.21.13:21  -222
+ 
+DOXS   DX108.29/C_KL102_DO
+   VALUE              I  PC12.12.2.5:11  -340
+                      O  PC12.8.52.5:OPN  -260
+ 
+DOXS   DX108.30/C_SK_O_DO
+   VALUE              O  PC12.13.1.2:INC  -341
+ 
+DOXS   DX108.31/C_62Y2_DO
+   VALUE              O  PC12.8.54.5:OPN  -262
+ 
+DOXS   DX108.32/C_SK_T_DO
+   VALUE              O  PC12.13.1.2:DEC  -341
+ 
+DIXS   DX108.34/C_OD_OK_DI
+   VALUE              I  PC12.8.54.5:LSOPN  -262
+                      I  PC12.8.54.5:LSCLS  -262
+ 
+DIXS   DX108.47/C_OPA_DI
+   VALUE              I  PC12.6.3.3:1  -174
+                      I  PC12.8.36.2:2  -243
+ 
+DIXS   DX108.48/C_OVLB_DI
+   VALUE              I  PC12.11.12.2:ACT  -338
+ 
+DIXS   DX108.51/C_PSL101
+   VALUE              I  PC12.12.2.7:5  -340
+ 
+DIXS   DX108.52/C_FSL101
+   VALUE              I  PC12.12.2.7:6  -340
+ 
+DIXS   DX108.53/C_ZSL101
+   VALUE              I  PC12.8.52.5:LSOPN  -260
+                      I  PC12.8.52.5:LSCLS  -260
+                      I  PC12.12.2.5:12  -340
+ 
+DIXS   DX108.54/C_ZSL102
+   VALUE              I  PC12.8.53.5:LSOPN  -261
+                      I  PC12.8.53.5:LSCLS  -261
+                      I  PC12.12.2.5:22  -340
+ 
+DIXS   DX111.1/C_1_DI
+   VALUE              I  PC12.4.7.2:I  -150
+                      I  PC12.4.19.1:I  -162
+                      I  PC12.6.2.4:6  -173
+                      I  PC12.8.1.5:2  -186
+                      I  PC12.8.1.7:2  -186
+                      I  PC12.8.1.9:INDONOP  -187
+                      I  PC12.8.20.10:26  -220
+                      I  PC12.11.7.3:1  -331
+                      I  PC12.11.7.4:1  -331
+ 
+DIXS   DX111.4/C_3_DI
+   VALUE              I  PC12.5.1.2:I  -164
+                      I  PC12.8.3.5:2  -189
+                      I  PC12.8.3.7:2  -189
+                      I  PC12.8.3.9:INDONOP  -190
+                      I  PC12.8.4.8:24  -191
+                      I  PC12.11.5.1:1  -328
+                      I  PC12.11.5.5:EN  -328
+                      I  PC12.11.6.4:1  -329
+                      I  PC12.11.6.7:EN  -330
+ 
+DIXS   DX111.5/C_4_DI
+   VALUE              I  PC12.5.2.2:I  -165
+                      I  PC12.8.4.5:2  -191
+                      I  PC12.8.4.7:2  -191
+                      I  PC12.8.4.9:INDONOP  -192
+                      I  PC12.8.5.8:24  -193
+                      I  PC12.11.4.1:1  -326
+ 
+DIXS   DX111.6/C_5_DI
+   VALUE              I  PC12.5.3.2:I  -166
+                      I  PC12.8.5.5:2  -193
+                      I  PC12.8.5.7:2  -193
+                      I  PC12.8.5.9:INDONOP  -194
+                      I  PC12.8.6.8:24  -195
+ 
+DIXS   DX111.7/C_6_DI
+   VALUE              I  PC12.5.4.2:I  -167
+                      I  PC12.8.6.5:2  -195
+                      I  PC12.8.6.7:2  -195
+                      I  PC12.8.6.9:INDONOP  -196
+                      I  PC12.8.7.8:24  -197
+                      I  PC12.8.48.1:EN  -255
+ 
+DIXS   DX111.8/C_7_DI
+   VALUE              I  PC12.4.14.2:I  -157
+                      I  PC12.5.5.2:I  -168
+                      I  PC12.8.7.5:2  -197
+                      I  PC12.8.7.7:2  -197
+                      I  PC12.8.7.9:INDONOP  -198
+                      I  PC12.8.8.8:24  -199
+                      I  PC12.11.8.3:1  -333
+ 
+DIXS   DX111.9/C_8_DI
+   VALUE              I  PC12.5.6.2:I  -169
+                      I  PC12.8.8.5:2  -199
+                      I  PC12.8.8.7:2  -199
+                      I  PC12.8.8.9:INDONOP  -200
+                      I  PC12.11.3.1:1  -324
+ 
+DIXS   DX111.12/C_11_DI
+   VALUE              I  PC12.8.11.5:2  -201
+                      I  PC12.8.11.8:2  -201
+                      I  PC12.8.11.12:INDONOP  -202
+ 
+DIXS   DX111.13/C_12A_DI
+   VALUE              I  PC12.2.6.2:3  -14
+                      I  PC12.4.14:COND  -157
+                      I  PC12.8.4.8:25  -191
+                      I  PC12.8.11.6:1  -201
+                      I  PC12.8.12.5:2  -203
+                      I  PC12.8.12.7:2  -203
+                      I  PC12.8.12.9:INDONOP  -204
+                      I  PC12.8.13.9:1  -205
+                      I  PC12.8.21.6:EN  -221
+                      I  PC12.8.32.6:I  -239
+                      I  PC12.8.32.8:23  -239
+                      I  PC12.11.5.1:2  -328
+                      I  PC12.11.6.4:2  -329
+ 
+DIXS   DX111.15/C_12C_DI
+   VALUE              I  PC12.4.12:COND  -155
+                      I  PC12.8.12.8:24  -203
+                      I  PC12.8.13.5:2  -205
+                      I  PC12.8.13.7:2  -205
+                      I  PC12.8.13.11:2  -205
+                      I  PC12.8.13.13:INDONOP  -206
+ 
+DIXS   DX111.16/C_13_DI
+   VALUE              I  PC12.6.1.2:I  -172
+                      I  PC12.6.2.4:4  -173
+                      I  PC12.8.30.5:2  -236
+                      I  PC12.8.30.7:2  -236
+                      I  PC12.8.30.9:INDONOP  -237
+                      I  PC12.8.35.4:6  -1
+                      I  PC12.8.35.9:6  -1
+ 
+DIXS   DX111.17/C_14_DI
+   VALUE              I  PC12.6.2.4:5  -173
+                      I  PC12.8.14.5:2  -207
+                      I  PC12.8.14.7:2  -207
+                      I  PC12.8.14.9:INDONOP  -208
+                      I  PC12.8.14.10:1  -208
+                      I  PC12.8.35.4:7  -1
+                      I  PC12.8.35.9:7  -1
+ 
+DOXS   DX111.21/C_1_DO
+   VALUE              I  PC12.8.1.3:2  -186
+                      O  PC12.8.1.8:60  -186
+ 
+DOXS   DX111.24/C_3_DO
+   VALUE              I  PC12.8.3.3:2  -189
+                      O  PC12.8.3.8:60  -189
+ 
+DOXS   DX111.25/C_4_DO
+   VALUE              I  PC12.8.4.3:2  -191
+                      O  PC12.8.4.8:60  -191
+ 
+DOXS   DX111.26/C_5_DO
+   VALUE              I  PC12.8.5.3:2  -193
+                      O  PC12.8.5.8:60  -193
+ 
+DOXS   DX111.27/C_6_DO
+   VALUE              I  PC12.8.6.3:2  -195
+                      O  PC12.8.6.10:20  -196
+ 
+DOXS   DX111.28/C_7_DO
+   VALUE              I  PC12.8.7.3:2  -197
+                      O  PC12.8.7.8:60  -197
+ 
+DOXS   DX111.29/C_8_DO
+   VALUE              I  PC12.8.8.3:2  -199
+                      O  PC12.8.8.8:60  -199
+ 
+DOXS   DX111.30/C_SV11_DO
+   VALUE              O  PC12.11.5.5:O  -328
+ 
+DOXS   DX111.31/C_SV31_DO
+   VALUE              O  PC12.11.6.7:O  -330
+ 
+DOXS   DX111.32/C_11_DO
+   VALUE              I  PC12.8.11.3:2  -201
+                      O  PC12.8.11.11:60  -201
+ 
+DIXS   DX111.34/C_18_DI
+   VALUE              I  PC12.8.16.8:24  -211
+                      I  PC12.8.17.5:2  -213
+                      I  PC12.8.17.7:2  -213
+                      I  PC12.8.17.9:INDONOP  -214
+                      I  PC12.14.104:CONDSTA1  -373
+                      I  PC12.14.104.2:I  -373
+ 
+DIXS   DX111.35/C_19_DI
+   VALUE              I  PC12.8.18.5:2  -215
+                      I  PC12.8.18.7:2  -215
+                      I  PC12.8.18.9:INDONOP  -216
+                      I  PC12.14.106:CONDSTA1  -374
+                      I  PC12.14.106.2:I  -374
+ 
+DIXS   DX111.36/C_20_DI
+   VALUE              I  PC12.8.19.5:2  -217
+                      I  PC12.8.19.7:2  -217
+                      I  PC12.8.19.9:INDONOP  -218
+ 
+DIXS   DX111.37/C_VSA_DI
+   VALUE              I  PC12.8.32.5:2  -239
+                      I  PC12.8.32.7:2  -239
+                      I  PC12.8.32.9:INDONOP  -240
+ 
+DIXS   DX111.38/C_22_DI
+   VALUE              I  PC12.2.6.3:21  -14
+                      I  PC12.4.5.2:1  -148
+                      I  PC12.6.2.4:9  -173
+                      I  PC12.8.20.5:2  -219
+                      I  PC12.8.20.7:2  -219
+                      I  PC12.8.20.11:INDONOP  -220
+ 
+DIXS   DX111.39/C_23_DI
+   VALUE              I  PC12.8.21.5:2  -221
+                      I  PC12.8.21.8:2  -221
+                      I  PC12.8.21.9:I  -221
+                      I  PC12.8.21.12:INDONOP  -222
+                      I  PC12.8.21.13:1  -222
+ 
+DIXS   DX111.40/C_24_DI
+   VALUE              I  PC12.2.6.3:31  -14
+                      I  PC12.4.5.2:2  -148
+                      I  PC12.6.2.4:7  -173
+                      I  PC12.8.22.5:2  -223
+                      I  PC12.8.22.7:2  -223
+                      I  PC12.8.22.9:INDONOP  -224
+ 
+DIXS   DX111.41/C_25_DI
+   VALUE              I  PC12.4.8.2:I  -151
+                      I  PC12.6.2.4:8  -173
+                      I  PC12.8.23.5:2  -225
+                      I  PC12.8.23.7:2  -225
+                      I  PC12.8.23.9:INDONOP  -226
+ 
+DIXS   DX111.42/C_WP4_DI
+   VALUE              I  PC12.4.3.4:3  -146
+                      I  PC12.8.26.5:2  -231
+                      I  PC12.8.26.7:2  -231
+                      I  PC12.8.26.11:2  -231
+                      I  PC12.8.26.13:INDONOP  -232
+                      I  PC12.8.27.10:I  -233
+                      I  PC12.8.49.9:1  -256
+                      I  PC12.8.50.8:1  -258
+ 
+DIXS   DX111.43/C_WP5_DI
+   VALUE              I  PC12.4.4.4:3  -147
+                      I  PC12.8.26.10:I  -231
+                      I  PC12.8.27.5:2  -233
+                      I  PC12.8.27.7:2  -233
+                      I  PC12.8.27.11:2  -233
+                      I  PC12.8.27.13:INDONOP  -234
+                      I  PC12.8.49.9:2  -256
+                      I  PC12.8.50.8:2  -258
+ 
+DIXS   DX111.44/C_WP1_DI
+   VALUE              I  PC12.4.1.3:1  -144
+                      I  PC12.7.2.2:I  -182
+                      I  PC12.8.24.5:2  -227
+                      I  PC12.8.24.7:2  -227
+                      I  PC12.8.24.9:2  -227
+                      I  PC12.8.24.11:INDONOP  -228
+                      I  PC12.8.25.8:I  -229
+                      I  PC12.8.25.9:2  -229
+                      I  PC12.11.2.1:1  -323
+ 
+DIXS   DX111.45/C_WP2_DI
+   VALUE              I  PC12.4.1.3:2  -144
+                      I  PC12.7.3.2:I  -183
+                      I  PC12.8.24.8:I  -227
+                      I  PC12.8.25.5:2  -229
+                      I  PC12.8.25.7:2  -229
+                      I  PC12.8.25.11:INDONOP  -230
+                      I  PC12.11.2.1:2  -323
+ 
+DIXS   DX111.46/C_TZ_B5_DI
+   VALUE              I  PC8.1.2.3:1  -3
+                      I  PC8.2.8.5:2  -23
+                      I  PC8.2.8.8:2  -23
+                      I  PC8.2.8.10:INDONOP  -24
+                      I  PC8.2.16.2:4  -36
+ 
+DIXS   DX111.50/C_6_H
+   VALUE              I  PC12.8.6.10:2  -196
+                      I  PC12.8.6.11:1  -196
+   BLOCKED            O  PC12.8.6.12:21  -196
+ 
+DIXS   DX111.51/C_GROEP_DI
+   VALUE              I  PC12.2.2.4:2  -10
+ 
+DOXS   DX111.53/C_12A_DO
+   VALUE              I  PC12.8.12.3:2  -203
+                      O  PC12.8.12.8:60  -203
+ 
+DOXS   DX111.55/C_12C_DO
+   VALUE              I  PC12.8.13.3:2  -205
+                      O  PC12.8.13.12:60  -206
+ 
+DOXS   DX111.56/C_13_DO
+   VALUE              I  PC12.8.30.3:2  -236
+                      O  PC12.8.30.8:60  -236
+ 
+DOXS   DX111.57/C_14_DO
+   VALUE              I  PC12.8.14.3:2  -207
+                      O  PC12.8.14.8:60  -207
+ 
+DOXS   DX111.58/C_WP1_DO
+   VALUE              I  PC12.8.24.3:2  -227
+                      I  PC12.8.25.3:2  -229
+                      O  PC12.8.24.10:60  -227
+ 
+DOXS   DX111.59/C_WP2_DO
+   VALUE              O  PC12.8.25.10:60  -229
+ 
+DOXS   DX111.62/C_18_DO
+   VALUE              I  PC12.8.17.3:2  -213
+                      O  PC12.8.17.8:60  -213
+ 
+DOXS   DX111.63/C_19_DO
+   VALUE              I  PC12.8.18.3:2  -215
+                      O  PC12.8.18.8:60  -215
+ 
+DOXS   DX111.64/C_20_DO
+   VALUE              I  PC12.8.19.3:2  -217
+                      O  PC12.8.19.8:60  -217
+ 
+DIXS   DX112.1/C_LSH22_DI
+   VALUE              I  PC12.8.6.8:25  -195
+ 
+DIXS   DX112.2/C_EKHY_O_MAX_DI
+   VALUE              I  PC12.8.11.11:25  -201
+ 
+DIXS   DX112.3/C_EKHY_N_MAX_DI
+   VALUE              I  PC12.8.11.11:24  -201
+ 
+DIXS   DX112.11/C_KP4_DI
+   VALUE              I  PC12.4.2.1:I  -145
+                      I  PC12.8.26.12:25  -232
+                      I  PC12.8.27.12:33  -234
+ 
+DIXS   DX112.12/C_KP5_DI
+   VALUE              I  PC12.4.2.2:I  -145
+                      I  PC12.8.26.12:33  -232
+                      I  PC12.8.27.12:25  -234
+ 
+DIXS   DX112.13/C_KWVS_DI
+   VALUE              I  PC12.11.2.2:2  -323
+ 
+DIXS   DX112.17/C_LSH21_DI
+   VALUE              I  PC12.8.5.8:25  -193
+ 
+DIXS   DX112.19/C_STT_C23
+   VALUE              I  PC12.8.21.10:1  -221
+ 
+DOXS   DX112.21/C_VSA_DO
+   VALUE              I  PC12.8.32.3:2  -239
+                      O  PC12.8.32.8:60  -239
+ 
+DOXS   DX112.22/C_22_DO
+   VALUE              I  PC12.8.20.3:2  -219
+                      O  PC12.8.20.10:60  -220
+ 
+DOXS   DX112.23/C_23_DO
+   VALUE              I  PC12.8.21.3:2  -221
+                      O  PC12.8.21.11:60  -221
+ 
+DOXS   DX112.24/C_24_DO
+   VALUE              I  PC12.8.22.3:2  -223
+                      O  PC12.8.22.8:60  -223
+ 
+DOXS   DX112.25/C_25_DO
+   VALUE              I  PC12.8.23.3:2  -225
+                      O  PC12.8.23.8:60  -225
+ 
+DOXS   DX112.26/C_WP4_DO
+   VALUE              I  PC12.8.26.3:2  -231
+                      O  PC12.8.26.12:60  -232
+ 
+DOXS   DX112.27/C_WP5_DO
+   VALUE              I  PC12.8.27.3:2  -233
+                      O  PC12.8.27.12:60  -234
+ 
+DOXS   DX112.28/C_SV30_DO
+   VALUE              I  PC12.8.43.4:2  -246
+                      I  PC12.8.43.6:INDONOP  -246
+                      O  PC12.8.43.5:60  -246
+ 
+DOXS   DX112.29/C_SV10_DO
+   VALUE              I  PC12.8.31.4:2  -238
+                      I  PC12.8.31.7:INDONOP  -238
+                      O  PC12.8.31.6:60  -238
+ 
+DOXS   DX112.30/C_TZ_B5_DO
+   VALUE              I  PC8.2.8.3:2  -23
+                      O  PC8.2.8.9:60  -23
+ 
+DOXS   DX112.31/C_WD_DO
+   VALUE              O  PC12.1.1.6:21  -3
+ 
+DOXS   DX112.32/C_VS_RS_I_DO
+   VALUE              O  PC12.8.12.8:60  -203
+ 
+DIXS   DX112.33/C_8B_DI
+   VALUE              I  PC12.8.44.5:2  -247
+                      I  PC12.8.44.7:2  -247
+                      I  PC12.8.44.11:INDONOP  -248
+ 
+DIXS   DX112.34/C_8C_DI
+   VALUE              I  PC12.8.45.5:2  -249
+                      I  PC12.8.45.7:2  -249
+                      I  PC12.8.45.9:INDONOP  -250
+ 
+DIXS   DX112.36/C_28_DI
+   VALUE              I  PC12.8.46.5:2  -251
+                      I  PC12.8.46.7:2  -251
+                      I  PC12.8.46.9:INDONOP  -252
+ 
+DIXS   DX112.37/C_29_DI
+   VALUE              I  PC12.8.47.5:2  -253
+                      I  PC12.8.47.7:2  -253
+                      I  PC12.8.47.9:INDONOP  -254
+ 
+DIXS   DX112.39/C_31_DI
+   VALUE              I  PC12.4.6.2:1  -149
+                      I  PC12.8.49.5:2  -256
+                      I  PC12.8.49.8:2  -256
+                      I  PC12.8.49.11:INDONOP  -257
+ 
+DIXS   DX112.40/C_32_DI
+   VALUE              I  PC12.4.6.2:2  -149
+                      I  PC12.8.50.5:2  -258
+                      I  PC12.8.50.7:2  -258
+                      I  PC12.8.50.11:INDONOP  -259
+ 
+DIXS   DX112.41/C_OP1_DI
+   VALUE              I  PC12.8.56.5:2  -263
+                      I  PC12.8.56.7:2  -263
+                      I  PC12.8.56.11:INDONOP  -264
+ 
+DIXS   DX112.42/C_OP2_DI
+   VALUE              I  PC12.8.57.5:2  -265
+                      I  PC12.8.57.7:2  -265
+                      I  PC12.8.57.11:INDONOP  -266
+ 
+DIXS   DX112.43/C_EKHY_O_DI
+   VALUE              I  PC12.8.11.15:11  -202
+ 
+DIXS   DX112.44/C_EKHY_N_DI
+   VALUE              I  PC12.8.11.15:1  -202
+ 
+DIXS   DX112.45/C_6_EK_O1_DI
+   VALUE              I  PC12.13.2.1:C  -342
+ 
+DIXS   DX112.46/C_6_EK_O2_DI
+   VALUE              I  PC12.13.2.2:C  -342
+ 
+DIXS   DX112.47/C_AL101_DI
+   VALUE              I  PC12.8.35.5:2  -1
+ 
+DOXS   DX112.53/C_8B_DO
+   VALUE              I  PC12.8.44.3:2  -247
+                      O  PC12.8.44.10:60  -248
+ 
+DOXS   DX112.54/C_8C_DO
+   VALUE              I  PC12.8.45.3:2  -249
+                      O  PC12.8.45.8:60  -249
+ 
+DOXS   DX112.55/C_6_T2
+   VALUE              O  PC12.8.6.11:21  -196
+ 
+DOXS   DX112.56/C_30_DO
+   VALUE              O  PC12.8.48.1:O  -255
+ 
+DOXS   DX112.57/C_28_DO
+   VALUE              I  PC12.8.46.3:2  -251
+                      O  PC12.8.46.8:60  -251
+ 
+DOXS   DX112.58/C_29_DO
+   VALUE              I  PC12.8.47.3:2  -253
+                      O  PC12.8.47.8:60  -253
+ 
+DOXS   DX112.60/C_31_DO
+   VALUE              I  PC12.8.49.3:2  -256
+                      O  PC12.8.49.10:60  -256
+ 
+DOXS   DX112.61/C_32_DO
+   VALUE              I  PC12.8.50.3:2  -258
+                      O  PC12.8.50.10:60  -258
+ 
+DOXS   DX112.62/C_OP1_DO
+   VALUE              I  PC12.8.56.3:2  -263
+                      O  PC12.8.56.10:60  -263
+ 
+DOXS   DX112.63/C_OP2_DO
+   VALUE              I  PC12.8.57.3:2  -265
+                      O  PC12.8.57.10:60  -265
+ 
+DOXS   DX112.64/C_HY_KL1_DO
+   VALUE              O  PC12.8.11.15:20  -202
+ 
+GENBIN   GEN166/C_31
+   ORDERS             I  PC12.8.49.1:ORDERS  -256
+   RORD               O  PC12.8.49.1:RORD  -256
+   VALUE              I  PC12.8.49.11:DBINST  -257
+   STATUS             O  PC12.8.49.11:STATUS  -257
+ 
+GENBIN   GEN167/C_32
+   ORDERS             I  PC12.8.50.1:ORDERS  -258
+   RORD               O  PC12.8.50.1:RORD  -258
+   VALUE              I  PC12.8.50.11:DBINST  -259
+   STATUS             O  PC12.8.50.11:STATUS  -259
+ 
+GENBIN   GEN172/C_OP1
+   ORDERS             I  PC12.8.56.1:ORDERS  -263
+   RORD               O  PC12.8.56.1:RORD  -263
+   VALUE              I  PC12.8.56.11:DBINST  -264
+   STATUS             O  PC12.8.56.11:STATUS  -264
+ 
+GENBIN   GEN173/C_OP2
+   ORDERS             I  PC12.8.57.1:ORDERS  -265
+   RORD               O  PC12.8.57.1:RORD  -265
+   VALUE              I  PC12.8.57.11:DBINST  -266
+   STATUS             O  PC12.8.57.11:STATUS  -266
+ 
+GENBIN   GEN312/CT_1L
+   ORDERS             I  PC12.9.1.1:ORDERS  -267
+   RORD               O  PC12.9.1.1:RORD  -267
+   VALUE              I  PC12.9.1.10:DBINST  -268
+   STATUS             O  PC12.9.1.10:STATUS  -268
+ 
+GENBIN   GEN313/CT_1R
+   ORDERS             I  PC12.9.1.11:ORDERS  -268
+   RORD               O  PC12.9.1.11:RORD  -268
+   VALUE              I  PC12.9.1.20:DBINST  -269
+   STATUS             O  PC12.9.1.20:STATUS  -269
+ 
+GENBIN   GEN314/CT_2L
+   ORDERS             I  PC12.9.2.1:ORDERS  -270
+   RORD               O  PC12.9.2.1:RORD  -270
+   VALUE              I  PC12.9.2.10:DBINST  -271
+   STATUS             O  PC12.9.2.10:STATUS  -271
+ 
+GENBIN   GEN315/CT_2R
+   ORDERS             I  PC12.9.2.11:ORDERS  -271
+   RORD               O  PC12.9.2.11:RORD  -271
+   VALUE              I  PC12.9.2.20:DBINST  -272
+   STATUS             O  PC12.9.2.20:STATUS  -272
+ 
+GENBIN   GEN316/CT_3
+   ORDERS             I  PC12.9.3.1:ORDERS  -273
+   RORD               O  PC12.9.3.1:RORD  -273
+   VALUE              I  PC12.9.3.9:DBINST  -274
+   STATUS             O  PC12.9.3.9:STATUS  -274
+ 
+GENBIN   GEN317/CT_4
+   ORDERS             I  PC12.9.4.1:ORDERS  -275
+   RORD               O  PC12.9.4.1:RORD  -275
+   VALUE              I  PC12.9.4.9:DBINST  -276
+   STATUS             O  PC12.9.4.9:STATUS  -276
+ 
+GENBIN   GEN318/CT_5
+   ORDERS             I  PC12.9.5.1:ORDERS  -277
+   RORD               O  PC12.9.5.1:RORD  -277
+   VALUE              I  PC12.9.5.9:DBINST  -278
+   STATUS             O  PC12.9.5.9:STATUS  -278
+ 
+GENBIN   GEN319/CT_6
+   ORDERS             I  PC12.9.6.1:ORDERS  -279
+   RORD               O  PC12.9.6.1:RORD  -279
+   VALUE              I  PC12.9.6.9:DBINST  -280
+   STATUS             O  PC12.9.6.9:STATUS  -280
+ 
+GENBIN   GEN320/CT_7
+   ORDERS             I  PC12.9.8.1:ORDERS  -282
+   RORD               O  PC12.9.8.1:RORD  -282
+   VALUE              I  PC12.9.8.9:DBINST  -283
+   STATUS             O  PC12.9.8.9:STATUS  -283
+ 
+GENBIN   GEN321/CT_8
+   ORDERS             I  PC12.9.10.1:ORDERS  -285
+   RORD               O  PC12.9.10.1:RORD  -285
+   VALUE              I  PC12.9.10.9:DBINST  -286
+   STATUS             O  PC12.9.10.9:STATUS  -286
+ 
+GENBIN   GEN322/CT_9
+   ORDERS             I  PC12.9.12.1:ORDERS  -287
+   RORD               O  PC12.9.12.1:RORD  -287
+   VALUE              I  PC12.9.12.9:DBINST  -288
+   STATUS             O  PC12.9.12.9:STATUS  -288
+ 
+GENBIN   GEN323/CT_10
+   ORDERS             I  PC12.9.14.1:ORDERS  -290
+   RORD               O  PC12.9.14.1:RORD  -290
+   VALUE              I  PC12.9.14.10:DBINST  -291
+   STATUS             O  PC12.9.14.10:STATUS  -291
+ 
+GENBIN   GEN324/CT_11
+   ORDERS             I  PC12.9.15.1:ORDERS  -292
+   RORD               O  PC12.9.15.1:RORD  -292
+   VALUE              I  PC12.9.15.9:DBINST  -293
+   STATUS             O  PC12.9.15.9:STATUS  -293
+ 
+GENBIN   GEN325/CT_12
+   ORDERS             I  PC12.9.16.1:ORDERS  -294
+   RORD               O  PC12.9.16.1:RORD  -294
+   VALUE              I  PC12.9.16.9:DBINST  -295
+   STATUS             O  PC12.9.16.9:STATUS  -295
+ 
+GENBIN   GEN326/CT_13
+   ORDERS             I  PC12.9.17.1:ORDERS  -296
+   RORD               O  PC12.9.17.1:RORD  -296
+   VALUE              I  PC12.9.17.9:DBINST  -297
+   STATUS             O  PC12.9.17.9:STATUS  -297
+ 
+GENBIN   GEN331/CT_14
+   ORDERS             I  PC12.9.22.1:ORDERS  -304
+   RORD               O  PC12.9.22.1:RORD  -304
+   VALUE              I  PC12.9.22.21:DBINST  -305
+   STATUS             O  PC12.9.22.21:STATUS  -305
+ 
+GENBIN   GEN349/C_1
+   ORDERS             I  PC12.8.1.1:ORDERS  -186
+   RORD               O  PC12.8.1.1:RORD  -186
+   VALUE              I  PC12.8.1.9:DBINST  -187
+   STATUS             O  PC12.8.1.9:STATUS  -187
+   MV                 O  PC12.8.1.10:21  -187
+ 
+GENBIN   GEN351/C_3
+   ORDERS             I  PC12.8.3.1:ORDERS  -189
+   RORD               O  PC12.8.3.1:RORD  -189
+   VALUE              I  PC12.8.3.9:DBINST  -190
+   STATUS             O  PC12.8.3.9:STATUS  -190
+ 
+GENBIN   GEN352/C_4
+   ORDERS             I  PC12.8.4.1:ORDERS  -191
+   RORD               O  PC12.8.4.1:RORD  -191
+   VALUE              I  PC12.8.4.9:DBINST  -192
+   STATUS             O  PC12.8.4.9:STATUS  -192
+ 
+GENBIN   GEN353/C_5
+   ORDERS             I  PC12.8.5.1:ORDERS  -193
+   RORD               O  PC12.8.5.1:RORD  -193
+   VALUE              I  PC12.8.5.9:DBINST  -194
+   STATUS             O  PC12.8.5.9:STATUS  -194
+ 
+GENBIN   GEN354/C_6
+   ORDERS             I  PC12.8.6.1:ORDERS  -195
+   RORD               O  PC12.8.6.1:RORD  -195
+   VALUE              I  PC12.8.6.9:DBINST  -196
+   STATUS             O  PC12.8.6.9:STATUS  -196
+ 
+GENBIN   GEN355/C_7
+   ORDERS             I  PC12.8.7.1:ORDERS  -197
+   RORD               O  PC12.8.7.1:RORD  -197
+   VALUE              I  PC12.8.7.9:DBINST  -198
+   STATUS             O  PC12.8.7.9:STATUS  -198
+ 
+GENBIN   GEN356/C_8
+   ORDERS             I  PC12.8.8.1:ORDERS  -199
+   RORD               O  PC12.8.8.1:RORD  -199
+   VALUE              I  PC12.8.8.9:DBINST  -200
+   STATUS             O  PC12.8.8.9:STATUS  -200
+ 
+GENBIN   GEN359/C_11
+   ORDERS             I  PC12.8.11.1:ORDERS  -201
+   RORD               O  PC12.8.11.1:RORD  -201
+   VALUE              I  PC12.8.11.12:DBINST  -202
+   STATUS             O  PC12.8.11.12:STATUS  -202
+ 
+GENBIN   GEN360/C_12A
+   ORDERS             I  PC12.8.12.1:ORDERS  -203
+   RORD               O  PC12.8.12.1:RORD  -203
+   VALUE              I  PC12.8.12.9:DBINST  -204
+   STATUS             O  PC12.8.12.9:STATUS  -204
+   MV                 O  PC12.8.12.10:21  -204
+ 
+GENBIN   GEN361/C_12C
+   ORDERS             I  PC12.8.13.1:ORDERS  -205
+   RORD               O  PC12.8.13.1:RORD  -205
+   VALUE              I  PC12.8.13.13:DBINST  -206
+   STATUS             O  PC12.8.13.13:STATUS  -206
+ 
+GENBIN   GEN362/C_14
+   ORDERS             I  PC12.8.14.1:ORDERS  -207
+   RORD               O  PC12.8.14.1:RORD  -207
+   VALUE              I  PC12.8.14.9:DBINST  -208
+   STATUS             O  PC12.8.14.9:STATUS  -208
+ 
+GENBIN   GEN364/C_17
+   ORDERS             I  PC12.8.16.1:ORDERS  -211
+   RORD               O  PC12.8.16.1:RORD  -211
+   VALUE              I  PC12.8.16.9:DBINST  -212
+   STATUS             O  PC12.8.16.9:STATUS  -212
+ 
+GENBIN   GEN365/C_18
+   ORDERS             I  PC12.8.17.1:ORDERS  -213
+   RORD               O  PC12.8.17.1:RORD  -213
+   VALUE              I  PC12.8.17.9:DBINST  -214
+   STATUS             O  PC12.8.17.9:STATUS  -214
+ 
+GENBIN   GEN366/C_19
+   ORDERS             I  PC12.8.18.1:ORDERS  -215
+   RORD               O  PC12.8.18.1:RORD  -215
+   VALUE              I  PC12.8.18.9:DBINST  -216
+   STATUS             O  PC12.8.18.9:STATUS  -216
+ 
+GENBIN   GEN367/C_20
+   ORDERS             I  PC12.8.19.1:ORDERS  -217
+   RORD               O  PC12.8.19.1:RORD  -217
+   VALUE              I  PC12.8.19.9:DBINST  -218
+   STATUS             O  PC12.8.19.9:STATUS  -218
+ 
+GENBIN   GEN368/C_VSA
+   ORDERS             I  PC12.8.32.1:ORDERS  -239
+   RORD               O  PC12.8.32.1:RORD  -239
+   VALUE              I  PC12.8.32.9:DBINST  -240
+   STATUS             O  PC12.8.32.9:STATUS  -240
+ 
+GENBIN   GEN369/C_22
+   ORDERS             I  PC12.8.20.1:ORDERS  -219
+   RORD               O  PC12.8.20.1:RORD  -219
+   VALUE              I  PC12.8.20.11:DBINST  -220
+   STATUS             O  PC12.8.20.11:STATUS  -220
+ 
+GENBIN   GEN370/C_23
+   ORDERS             I  PC12.8.21.1:ORDERS  -221
+   RORD               O  PC12.8.21.1:RORD  -221
+   VALUE              I  PC12.8.21.12:DBINST  -222
+   STATUS             O  PC12.8.21.12:STATUS  -222
+ 
+GENBIN   GEN371/C_24
+   ORDERS             I  PC12.8.22.1:ORDERS  -223
+   RORD               O  PC12.8.22.1:RORD  -223
+   VALUE              I  PC12.8.22.9:DBINST  -224
+   STATUS             O  PC12.8.22.9:STATUS  -224
+ 
+GENBIN   GEN372/C_25
+   ORDERS             I  PC12.8.23.1:ORDERS  -225
+   RORD               O  PC12.8.23.1:RORD  -225
+   VALUE              I  PC12.8.23.9:DBINST  -226
+   STATUS             O  PC12.8.23.9:STATUS  -226
+ 
+GENBIN   GEN373/C_WP1
+   ORDERS             I  PC12.8.24.1:ORDERS  -227
+   RORD               O  PC12.8.24.1:RORD  -227
+   VALUE              I  PC12.8.24.11:DBINST  -228
+   STATUS             O  PC12.8.24.11:STATUS  -228
+ 
+GENBIN   GEN374/C_WP2
+   ORDERS             I  PC12.8.25.1:ORDERS  -229
+   RORD               O  PC12.8.25.1:RORD  -229
+   VALUE              I  PC12.8.25.11:DBINST  -230
+   STATUS             O  PC12.8.25.11:STATUS  -230
+ 
+GENBIN   GEN375/C_WP4
+   ORDERS             I  PC12.8.26.1:ORDERS  -231
+   RORD               O  PC12.8.26.1:RORD  -231
+   VALUE              I  PC12.8.26.13:DBINST  -232
+   STATUS             O  PC12.8.26.13:STATUS  -232
+ 
+GENBIN   GEN376/C_WP5
+   ORDERS             I  PC12.8.27.1:ORDERS  -233
+   RORD               O  PC12.8.27.1:RORD  -233
+   VALUE              I  PC12.8.27.13:DBINST  -234
+   STATUS             O  PC12.8.27.13:STATUS  -234
+ 
+GENBIN   GEN377/C_TZ_B5
+   ORDERS             I  PC8.2.8.1:ORDERS  -23
+   RORD               O  PC8.2.8.1:RORD  -23
+   VALUE              I  PC8.2.8.10:DBINST  -24
+   STATUS             O  PC8.2.8.10:STATUS  -24
+ 
+GENBIN   GEN379/C_13
+   ORDERS             I  PC12.8.30.1:ORDERS  -236
+   RORD               O  PC12.8.30.1:RORD  -236
+   VALUE              I  PC12.8.30.9:DBINST  -237
+   STATUS             O  PC12.8.30.9:STATUS  -237
+ 
+GENBIN   GEN380/C_SV10
+   ORDERS             I  PC12.8.31.1:ORDERS  -238
+   RORD               O  PC12.8.31.1:RORD  -238
+   VALUE              I  PC12.8.31.7:DBINST  -238
+   STATUS             O  PC12.8.31.7:STATUS  -238
+ 
+GENBIN   GEN382/C_SV30
+   ORDERS             I  PC12.8.43.1:ORDERS  -246
+   RORD               O  PC12.8.43.1:RORD  -246
+   VALUE              I  PC12.8.43.6:DBINST  -246
+   STATUS             O  PC12.8.43.6:STATUS  -246
+ 
+GENBIN   GEN383/C_8B
+   ORDERS             I  PC12.8.44.1:ORDERS  -247
+   RORD               O  PC12.8.44.1:RORD  -247
+   VALUE              I  PC12.8.44.11:DBINST  -248
+   STATUS             O  PC12.8.44.11:STATUS  -248
+ 
+GENBIN   GEN384/C_8C
+   ORDERS             I  PC12.8.45.1:ORDERS  -249
+   RORD               O  PC12.8.45.1:RORD  -249
+   VALUE              I  PC12.8.45.9:DBINST  -250
+   STATUS             O  PC12.8.45.9:STATUS  -250
+ 
+GENBIN   GEN386/C_28
+   ORDERS             I  PC12.8.46.1:ORDERS  -251
+   RORD               O  PC12.8.46.1:RORD  -251
+   VALUE              I  PC12.8.46.9:DBINST  -252
+   STATUS             O  PC12.8.46.9:STATUS  -252
+ 
+GENBIN   GEN387/C_29
+   ORDERS             I  PC12.8.47.1:ORDERS  -253
+   RORD               O  PC12.8.47.1:RORD  -253
+   VALUE              I  PC12.8.47.9:DBINST  -254
+   STATUS             O  PC12.8.47.9:STATUS  -254
+ 
+GENBIN   GEN434/CT_21
+   ORDERS             I  PC12.9.19.1:ORDERS  -299
+   RORD               O  PC12.9.19.1:RORD  -299
+   VALUE              I  PC12.9.19.21:DBINST  -300
+   STATUS             O  PC12.9.19.21:STATUS  -300
+ 
+GENBIN   GEN435/CT_23
+   ORDERS             I  PC12.9.20.1:ORDERS  -301
+   RORD               O  PC12.9.20.1:RORD  -301
+   VALUE              I  PC12.9.20.21:DBINST  -302
+   STATUS             O  PC12.9.20.21:STATUS  -302
+ 
+GENBIN   GEN436/CT_23B
+   ORDERS             I  PC12.9.21.1:ORDERS  -303
+   RORD               O  PC12.9.21.1:RORD  -303
+   VALUE              I  PC12.9.21.21:DBINST  -303
+   STATUS             O  PC12.9.21.21:STATUS  -303
+ 
+GENBIN   GEN483/CT_15
+   ORDERS             I  PC12.9.25.1:ORDERS  -307
+   RORD               O  PC12.9.25.1:RORD  -307
+   VALUE              I  PC12.9.25.11:DBINST  -308
+   STATUS             O  PC12.9.25.11:STATUS  -308
+ 
+GENBIN   GEN484/CT_16
+   ORDERS             I  PC12.9.26.1:ORDERS  -309
+   RORD               O  PC12.9.26.1:RORD  -309
+   VALUE              I  PC12.9.26.11:DBINST  -310
+   STATUS             O  PC12.9.26.11:STATUS  -310
+ 
+GENBIN   GEN485/CT_17
+   ORDERS             I  PC12.9.27.1:ORDERS  -311
+   RORD               O  PC12.9.27.1:RORD  -311
+   VALUE              I  PC12.9.27.11:DBINST  -312
+   STATUS             O  PC12.9.27.11:STATUS  -312
+ 
+GENBIN   GEN486/CT_17B
+   ORDERS             I  PC12.9.28.1:ORDERS  -313
+   RORD               O  PC12.9.28.1:RORD  -313
+   VALUE              I  PC12.9.28.11:DBINST  -314
+   STATUS             O  PC12.9.28.11:STATUS  -314
+ 
+GENBIN   GEN487/CT_18
+   ORDERS             I  PC12.9.29.1:ORDERS  -315
+   RORD               O  PC12.9.29.1:RORD  -315
+   VALUE              I  PC12.9.29.11:DBINST  -316
+   STATUS             O  PC12.9.29.11:STATUS  -316
+ 
+VALVECON   MMCX52/C_KL102
+   PC_PARM            I  PC12.8.52.5:PARAM  -260
+   PC_RES             O  PC12.8.52.5:RESULT  -260
+   MORD               O  PC12.8.52.5:RMORD  -260
+ 
+VALVECON   MMCX53/C_KL103
+   PC_PARM            I  PC12.8.53.5:PARAM  -261
+   PC_RES             O  PC12.8.53.5:RESULT  -261
+   MORD               O  PC12.8.53.5:RMORD  -261
+ 
+VALVECON   MMCX54/C_62Y2
+   PC_PARM            I  PC12.8.54.5:PARAM  -262
+   PC_RES             O  PC12.8.54.5:RESULT  -262
+   MORD               O  PC12.8.54.5:RMORD  -262
+ 
+VALVECON   MMCX57/CT_17_PK
+   PC_PARM            I  PC12.9.32.10:PARAM  -319
+   PC_RES             O  PC12.9.32.10:RESULT  -319
+   MORD               O  PC12.9.32.10:RMORD  -319
+ 
+VALVECON   MMCX66/CT_KL54
+   PC_PARM            I  PC12.9.13.10:PARAM  -289
+   PC_RES             O  PC12.9.13.10:RESULT  -289
+   MORD               O  PC12.9.13.10:RMORD  -289
+ 
+VALVECON   MMCX68/CT_KL56
+   PC_PARM            I  PC12.9.9.10:PARAM  -284
+   PC_RES             O  PC12.9.9.10:RESULT  -284
+   MORD               O  PC12.9.9.10:RMORD  -284
+ 
+VALVECON   MMCX69/CT_KL57
+   PC_PARM            I  PC12.9.7.10:PARAM  -281
+   PC_RES             O  PC12.9.7.10:RESULT  -281
+   MORD               O  PC12.9.7.10:RMORD  -281
+ 
+VALVECON   MMCX70/CT_14_KL
+   PC_PARM            I  PC12.9.23.10:PARAM  -306
+   PC_RES             O  PC12.9.23.10:RESULT  -306
+   MORD               O  PC12.9.23.10:RMORD  -306
+ 
+VALVECON   MMCX81/CT_AF
+   PC_PARM            I  PC12.9.18.10:PARAM  -298
+   PC_RES             O  PC12.9.18.10:RESULT  -298
+   MORD               O  PC12.9.18.10:RMORD  -298
+ 
+VALVECON   MMCX89/CT_KL55A
+   PC_PARM            I  PC12.9.30.10:PARAM  -317
+   PC_RES             O  PC12.9.30.10:RESULT  -317
+   MORD               O  PC12.9.30.10:RMORD  -317
+ 
+VALVECON   MMCX90/CT_KL55B
+   PC_PARM            I  PC12.9.31.10:PARAM  -318
+   PC_RES             O  PC12.9.31.10:RESULT  -318
+   MORD               O  PC12.9.31.10:RMORD  -318
+ 
+MANSTN   MANSTN20/C_MS51
+   PARAM1             I  PC12.10.1.1:PARAM1  -320
+   PARAM2             I  PC12.10.1.1:PARAM2  -320
+   PARAM3             I  PC12.10.1.1:PARAM3A  -320
+                      O  PC12.10.1.1:PARAM3B  -320
+   VALUE              I  PC12.10.1.1:DBINST  -320
+   PARAM4             O  PC12.10.1.1:PARAM4  -320
+   PARAM5             O  PC12.10.1.1:PARAM5  -320
+   PARAM6             O  PC12.10.1.1:PARAM6  -320
+   POUT               O  PC12.10.1.1:OUT  -320
+ 
+PIDCON   PIDCON22/C_PIC11
+   PARAM1             I  PC12.11.5.2:PARAM1  -328
+   PARAM2             I  PC12.11.5.2:PARAM2  -328
+   PARAM3             I  PC12.11.5.2:PARAM3A  -328
+                      O  PC12.11.5.2:PARAM3B  -328
+   VALUE              I  PC12.11.5.2:DBINST  -328
+   PARAM4             O  PC12.11.5.2:PARAM4  -328
+   PARAM5             O  PC12.11.5.2:PARAM5  -328
+   PARAM6             O  PC12.11.5.2:PARAM6  -328
+   POUT               O  PC12.11.5.2:OUTP  -328
+   PARAM7             I  PC12.11.5.2:PARAM7  -328
+ 
+PIDCON   PIDCON23/C_FIC21
+   PARAM1             I  PC12.11.3.3:PARAM1  -324
+   PARAM2             I  PC12.11.3.3:PARAM2  -324
+   PARAM3             I  PC12.11.3.3:PARAM3A  -324
+                      O  PC12.11.3.3:PARAM3B  -324
+   VALUE              I  PC12.11.3.3:DBINST  -324
+   PARAM4             O  PC12.11.3.3:PARAM4  -324
+   PARAM5             O  PC12.11.3.3:PARAM5  -324
+   PARAM6             O  PC12.11.3.3:PARAM6  -324
+   POUT               O  PC12.11.3.3:OUTP  -324
+   PARAM7             I  PC12.11.3.3:PARAM7  -324
+ 
+PIDCON   PIDCON24/C_TOIC21
+   PARAM1             I  PC12.11.8.2:PARAM1  -333
+   PARAM2             I  PC12.11.8.2:PARAM2  -333
+   PARAM3             I  PC12.11.8.2:PARAM3A  -333
+                      O  PC12.11.8.2:PARAM3B  -333
+   VALUE              I  PC12.11.8.2:DBINST  -333
+   PARAM4             O  PC12.11.8.2:PARAM4  -333
+   PARAM5             O  PC12.11.8.2:PARAM5  -333
+   PARAM6             O  PC12.11.8.2:PARAM6  -333
+   POUT               O  PC12.11.8.2:OUTP  -333
+   PARAM7             I  PC12.11.8.2:PARAM7  -333
+ 
+PIDCON   PIDCON25/C_LIC21
+   PARAM1             I  PC12.11.4.2:PARAM1  -326
+   PARAM2             I  PC12.11.4.2:PARAM2  -326
+   PARAM3             I  PC12.11.4.2:PARAM3A  -326
+                      O  PC12.11.4.2:PARAM3B  -326
+   VALUE              I  PC12.11.4.2:DBINST  -326
+   PARAM4             O  PC12.11.4.2:PARAM4  -326
+   PARAM5             O  PC12.11.4.2:PARAM5  -326
+   PARAM6             O  PC12.11.4.2:PARAM6  -326
+   POUT               O  PC12.11.4.2:OUTP  -326
+   PARAM7             I  PC12.11.4.2:PARAM7  -326
+ 
+PIDCON   PIDCON27/C_PIC31
+   PARAM1             I  PC12.11.6.2:PARAM1  -329
+   PARAM2             I  PC12.11.6.2:PARAM2  -329
+   PARAM3             I  PC12.11.6.2:PARAM3A  -329
+                      O  PC12.11.6.2:PARAM3B  -329
+   VALUE              I  PC12.11.6.2:DBINST  -329
+   PARAM4             O  PC12.11.6.2:PARAM4  -329
+   PARAM5             O  PC12.11.6.2:PARAM5  -329
+   PARAM6             O  PC12.11.6.2:PARAM6  -329
+   POUT               O  PC12.11.6.2:OUTP  -329
+   PARAM7             I  PC12.11.6.2:PARAM7  -329
+ 
+PIDCON   PIDCON28/C_PIC41
+   PARAM1             I  PC12.11.7.2:PARAM1  -331
+   PARAM2             I  PC12.11.7.2:PARAM2  -331
+   PARAM3             I  PC12.11.7.2:PARAM3A  -331
+                      O  PC12.11.7.2:PARAM3B  -331
+   VALUE              I  PC12.11.7.2:DBINST  -331
+   PARAM4             O  PC12.11.7.2:PARAM4  -331
+   PARAM5             O  PC12.11.7.2:PARAM5  -331
+   PARAM6             O  PC12.11.7.2:PARAM6  -331
+   POUT               O  PC12.11.7.2:OUTP  -331
+   PARAM7             I  PC12.11.7.2:PARAM7  -331
+   ACTPOS             O  PC12.11.7.8:21  -332
+ 
+PIDCON   PIDCON29/C_LIC71
+   PARAM1             I  PC12.11.1.2:PARAM1  -321
+   PARAM2             I  PC12.11.1.2:PARAM2  -321
+   PARAM3             I  PC12.11.1.2:PARAM3A  -321
+                      O  PC12.11.1.2:PARAM3B  -321
+   VALUE              I  PC12.11.1.2:DBINST  -321
+   PARAM4             O  PC12.11.1.2:PARAM4  -321
+   PARAM5             O  PC12.11.1.2:PARAM5  -321
+   PARAM6             O  PC12.11.1.2:PARAM6  -321
+   POUT               O  PC12.11.1.2:OUTP  -321
+   PARAM7             I  PC12.11.1.2:PARAM7  -321
+   ACTPOS             O  PC12.11.1.7:21  -322
+ 
+PIDCON   PIDCON30/C_PIC71
+   PARAM1             I  PC12.11.2.3:PARAM1  -323
+   PARAM2             I  PC12.11.2.3:PARAM2  -323
+   PARAM3             I  PC12.11.2.3:PARAM3A  -323
+                      O  PC12.11.2.3:PARAM3B  -323
+   VALUE              I  PC12.11.2.3:DBINST  -323
+   PARAM4             O  PC12.11.2.3:PARAM4  -323
+   PARAM5             O  PC12.11.2.3:PARAM5  -323
+   PARAM6             O  PC12.11.2.3:PARAM6  -323
+   POUT               O  PC12.11.2.3:OUTP  -323
+   PARAM7             I  PC12.11.2.3:PARAM7  -323
+ 
+PIDCON   PIDCON31/C_FIC101
+   PARAM1             I  PC12.11.9.2:PARAM1  -334
+   PARAM2             I  PC12.11.9.2:PARAM2  -334
+   PARAM3             I  PC12.11.9.2:PARAM3A  -334
+                      O  PC12.11.9.2:PARAM3B  -334
+   VALUE              I  PC12.11.9.2:DBINST  -334
+   PARAM4             O  PC12.11.9.2:PARAM4  -334
+   PARAM5             O  PC12.11.9.2:PARAM5  -334
+   PARAM6             O  PC12.11.9.2:PARAM6  -334
+   POUT               O  PC12.11.9.2:OUTP  -334
+   PARAM7             I  PC12.11.9.2:PARAM7  -334
+ 
+PIDCON   PIDCON32/C_FIC102
+   PARAM1             I  PC12.11.10.10:PARAM1  -336
+   PARAM2             I  PC12.11.10.10:PARAM2  -336
+   PARAM3             I  PC12.11.10.10:PARAM3A  -336
+                      O  PC12.11.10.10:PARAM3B  -336
+   VALUE              I  PC12.11.10.10:DBINST  -336
+   PARAM4             O  PC12.11.10.10:PARAM4  -336
+   PARAM5             O  PC12.11.10.10:PARAM5  -336
+   PARAM6             O  PC12.11.10.10:PARAM6  -336
+   POUT               O  PC12.11.10.10:OUTP  -336
+   PARAM7             I  PC12.11.10.10:PARAM7  -336
+   PARAM8             O  PC12.11.10.10:PARAM8  -336
+ 
+PIDCON   PIDCON33/C_FIC103
+   PARAM1             I  PC12.11.10.20:PARAM1  -337
+   PARAM2             I  PC12.11.10.20:PARAM2  -337
+   PARAM3             I  PC12.11.10.20:PARAM3A  -337
+                      O  PC12.11.10.20:PARAM3B  -337
+   VALUE              I  PC12.11.10.20:DBINST  -337
+   PARAM4             O  PC12.11.10.20:PARAM4  -337
+   PARAM5             O  PC12.11.10.20:PARAM5  -337
+   PARAM6             O  PC12.11.10.20:PARAM6  -337
+   POUT               O  PC12.11.10.20:OUTP  -337
+   PARAM7             I  PC12.11.10.20:PARAM7  -337
+   PARAM8             O  PC12.11.10.20:PARAM8  -337
+ 
+SEQ   SEQ19/C_SEQ_DZ
+   R                  I  PC12.2.1.1.2:2  -7
+                      O  PC12.3:UNACK-N  -17
+   START              I  PC12.2.1.1.3:I  -7
+                      I  PC12.2.1.1.7:1  -7
+   MAN                I  PC12.3:MAN  -17
+   VALUE              I  PC12.3:DBINST  -17
+   SEQIND             O  PC12.3:SEQIND  -17
+   SEQVAL             O  PC12.3:SEQVAL  -17
+   FAULT              O  PC12.3:FAULT  -17
+ 
+SEQ   SEQ20/C_SEQ_ALG
+   R                  I  PC12.2.2.2:2  -10
+   START              I  PC12.2.2.3:1  -10
+                      I  PC12.2.2.6:I  -10
+   MAN                I  PC12.2.2.5:4  -10
+                      O  PC12.4:UNACK-N  -144
+   STEP               I  PC12.4:STEP  -144
+                      O  PC12.4:UNACK-N  -144
+   VALUE              I  PC12.4:DBINST  -144
+   SEQIND             O  PC12.4:SEQIND  -144
+   SEQVAL             O  PC12.4:SEQVAL  -144
+   FAULT              O  PC12.4:FAULT  -144
+ 
+SEQ   SEQ21/C_SEQ_NZ
+   START              I  PC12.2.3.1:I  -11
+                      I  PC12.2.3.4:1  -11
+   R                  I  PC12.2.3.8:2  -11
+                      O  PC12.5:UNACK-N  -164
+   MAN                I  PC12.5:MAN  -164
+   VALUE              I  PC12.5:DBINST  -164
+   SEQIND             O  PC12.5:SEQIND  -164
+   SEQVAL             O  PC12.5:SEQVAL  -164
+   FAULT              O  PC12.5:FAULT  -164
+ 
+SEQ   SEQ22/C_SEQ_BR
+   START              I  PC12.2.4.1:I  -12
+                      I  PC12.2.4.4:1  -12
+                      I  PC12.6.7.1:I  -178
+   R                  I  PC12.2.4.8:2  -12
+                      O  PC12.6:UNACK-N  -172
+   MAN                I  PC12.6:MAN  -172
+   VALUE              I  PC12.6:DBINST  -172
+   SEQIND             O  PC12.6:SEQIND  -172
+   SEQVAL             O  PC12.6:SEQVAL  -172
+   FAULT              O  PC12.6:FAULT  -172
+ 
+SEQ   SEQ23/C_SEQ_WV
+   START              I  PC12.2.5.1:I  -13
+                      I  PC12.2.5.4:1  -13
+   R                  I  PC12.2.5.8:2  -13
+                      O  PC12.7:UNACK-N  -181
+   MAN                I  PC12.7:MAN  -181
+   VALUE              I  PC12.7:DBINST  -181
+   SEQIND             O  PC12.7:SEQIND  -181
+   SEQVAL             O  PC12.7:SEQVAL  -181
+   FAULT              O  PC12.7:FAULT  -181
+ 
+SEQ   SEQ31/C_SEQ_DZ2
+   START              I  PC12.2.8.4:1  -16
+                      I  PC12.14:STARTC  -343
+   R                  I  PC12.14:R  -343
+                      O  PC12.14:UNACK-N  -343
+   MAN                I  PC12.14:MAN  -343
+   VALUE              I  PC12.14:DBINST  -343
+   SEQIND             O  PC12.14:SEQIND  -343
+   SEQVAL             O  PC12.14:SEQVAL  -343
+   FAULT              O  PC12.14:FAULT  -343
+   STEPSTAT           O  PC12.14.32:STEPSTAT  -350
+                      O  PC12.14.34:STEPSTAT  -351
+                      O  PC12.14.36:STEPSTAT  -352
+                      O  PC12.14.40:STEPSTAT  -353
+                      O  PC12.14.42:STEPSTAT  -354
+                      O  PC12.14.44:STEPSTAT  -355
+                      O  PC12.14.46:STEPSTAT  -356
+                      O  PC12.14.48:STEPSTAT  -357
+                      O  PC12.14.50:STEPSTAT  -358
+                      O  PC12.14.52:STEPSTAT  -359
+                      O  PC12.14.64:STEPSTAT  -360
+                      O  PC12.14.68:STEPSTAT  -361
+                      O  PC12.14.70:STEPSTAT  -362
+                      O  PC12.14.72:STEPSTAT  -363
+                      O  PC12.14.74:STEPSTAT  -364
+                      O  PC12.14.80:STEPSTAT  -365
+                      O  PC12.14.84:STEPSTAT  -366
+                      O  PC12.14.90:STEPSTAT  -367
+                      O  PC12.14.92:STEPSTAT  -368
+                      O  PC12.14.94:STEPSTAT  -369
+                      O  PC12.14.96:STEPSTAT  -370
+                      O  PC12.14.98:STEPSTAT  -371
+                      O  PC12.14.100:STEPSTAT  -372
+                      O  PC12.14.104:STEPSTAT  -373
+                      O  PC12.14.106:STEPSTAT  -374
+                      O  PC12.14.108:STEPSTAT  -375
+                      O  PC12.14.109:STEPSTAT  -376
+                      O  PC12.14.110:STEPSTAT  -377
+   INFVAL             O  PC12.14.32:INFVAL  -350
+                      O  PC12.14.34:INFVAL  -351
+                      O  PC12.14.36:INFVAL  -352
+                      O  PC12.14.40:INFVAL  -353
+                      O  PC12.14.42:INFVAL  -354
+                      O  PC12.14.44:INFVAL  -355
+                      O  PC12.14.46:INFVAL  -356
+                      O  PC12.14.48:INFVAL  -357
+                      O  PC12.14.50:INFVAL  -358
+                      O  PC12.14.52:INFVAL  -359
+                      O  PC12.14.64:INFVAL  -360
+                      O  PC12.14.68:INFVAL  -361
+                      O  PC12.14.70:INFVAL  -362
+                      O  PC12.14.72:INFVAL  -363
+                      O  PC12.14.74:INFVAL  -364
+                      O  PC12.14.80:INFVAL  -365
+                      O  PC12.14.84:INFVAL  -366
+                      O  PC12.14.90:INFVAL  -367
+                      O  PC12.14.92:INFVAL  -368
+                      O  PC12.14.94:INFVAL  -369
+                      O  PC12.14.96:INFVAL  -370
+                      O  PC12.14.98:INFVAL  -371
+                      O  PC12.14.100:INFVAL  -372
+                      O  PC12.14.104:INFVAL  -373
+                      O  PC12.14.106:INFVAL  -374
+                      O  PC12.14.108:INFVAL  -375
+                      O  PC12.14.109:INFVAL  -376
+                      O  PC12.14.110:INFVAL  -377
+
+

@@ -1,0 +1,12 @@
+.obsidian/
+__pycache__/
+.stfolder/
+.mypy_cache/
+.stfolder/
+lemton00/
+
+
+
+
+# Ignore Smart Environment folder
+.smart-env

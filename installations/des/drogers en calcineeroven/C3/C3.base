@@ -1,0 +1,12 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.tags.contains("C3")
+    order:
+      - file.name
+      - date modified
+    sort:
+      - property: date modified
+        direction: DESC

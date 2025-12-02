@@ -1,0 +1,54 @@
+---
+date created: 2025-08-01T14:20:14+02:00
+date modified: 2025-09-19T21:03:23+02:00
+---
+# Vergelijking van de Github OPCUA bibliotheken.
+- [opc-proxy/opc-proxy-core](https://github.com/opc-proxy/opc-proxy-core)
+	- Op het eerste zicht niet echt bruikbaar.
+- [pawliko14/OPCuaClient_aspnet](https://github.com/pawliko14/OPCuaClient_aspnet)
+	- Enkel client
+- [convertersystems/OpcUaFeatureTests](https://github.com/convertersystems/OpcUaFeatureTests)
+	- Enkel Client
+- [cactuaroid/protoc-gen-opcua](https://github.com/cactuaroid/protoc-gen-opcua)
+	- prul
+- [Cagnow/OpcUA-LabView](https://github.com/Cagnow/OpcUA-LabView)
+	- Labview
+- [cognitedata/opcua-extractor-net](https://github.com/cognitedata/opcua-extractor-net)
+	- Enkel client
+- [damikun/UnifiedEdge](https://github.com/damikun/UnifiedEdge)
+	- Precies niet bruikbaar.
+- [DzungV/OPCUAServer](https://github.com/DzungV/OPCUAServer)
+	- Simpel. Maakt gebruik van UaFx.
+- [kushalarya/OpcUaDemo](https://github.com/kushalarya/OpcUaDemo)
+	- Prul
+- [sandervandevelde/Test-OpcUa-Server](https://github.com/sandervandevelde/Test-OpcUa-Server)
+	- UaFx
+- [suriyasonp/OpcUaCommunicationConcept](https://github.com/suriyasonp/OpcUaCommunicationConcept)
+	- Enkel client
+- [suatstlm/TestConnectOPCUA](https://github.com/suatstlm/TestConnectOPCUA)
+	- Enkel client
+- [tia-portal-applications/tia-addin-opc-ua-modelled-interface](https://github.com/tia-portal-applications/tia-addin-opc-ua-modelled-interface)
+	- Een plugin voor Tia Portal
+- [Thalruk/IoT-Project](https://github.com/Thalruk/IoT-Project)
+	- prul
+- [Wynnlin329/modbus_to_opcua](https://github.com/Wynnlin329/modbus_to_opcua)
+	- Potentie!
+- [tonik173/opcua-example](https://github.com/tonik173/opcua-example)
+	- Mogelijk goed voorbeeld, maar werkt met xml model
+- [technosoftware-gmbh/opcua-solution-net](https://github.com/technosoftware-gmbh/opcua-solution-net)
+	- uitgebreid voorbeeld. moeilijk op het eerste zicht
+- [asemlucben/Optix_Sample_OPCUAMotorsServer](https://github.com/asemlucben/Optix_Sample_OPCUAMotorsServer)
+	- uitgebreid voorbeeld. moeilijk op het eerste zicht
+- [digitaltwinconsortium/UA-EdgeHEMS](https://github.com/digitaltwinconsortium/UA-EdgeHEMS)
+	- Goed voorbeeld
+- [edcurtin/OPCUA](https://github.com/edcurtin/OPCUA)
+	- Potentie
+- [giulioungaretti/ControlsServer](https://github.com/giulioungaretti/ControlsServer)
+  id:: 67a0693d-d0e4-4b40-9979-72b39e18acd6
+	- Potentie
+	- WERKENDE SERVER
+- [feremabraz/OPCUA-Client-Server](https://github.com/feremabraz/OPCUA-Client-Server)
+	- Goed voorbeeld
+- [elihu15921/Apply-OpcUa-Server](https://github.com/elihu15921/Apply-OpcUa-Server)
+	- Mogelijk goed voorbeeld
+-

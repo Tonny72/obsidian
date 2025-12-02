@@ -1,0 +1,1 @@
+[Gemiddelde energieprijzen (2012)](obsidian://vault/automation/Gemiddelde%20energieprijzen%20(2012))
