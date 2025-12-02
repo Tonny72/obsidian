@@ -6,9 +6,10 @@ modified: 2025-08-20
 - Het is een veilige keuze om met de populaire internet standaarden te werken.
 
 ## [[applications/pkm/PKM|PKM]]
-- [[applications/Obsidian/Obsidian|Obsidian]] [[2015-11-05]] Clean up is needed. 
+- [[applications/Obsidian/Obsidian|Obsidian]] [[2025-11-05]] Clean up is needed. 
 	- Find a way to sync with android. Try with [[Github]] because that is also used with automation.
 	- Using Obsidian direct online is too slow.
+- [[applications/Obsidian/Obsidian|Obsidian]] [[2025-12-02]]: Cleanup is still needed.
 
 ## [[Password Manager]]
 - [[Bitwarden]] [[2015-11-05]] try this in favor of [[KeepPassXC]]
