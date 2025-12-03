@@ -1,6 +1,6 @@
 ---
 date created: 2025-10-19T11:31:37+02:00
-date modified: 2025-12-02T11:36:57+01:00
+date modified: 2025-12-03T08:04:03+01:00
 ---
 [[2025-10-19]]: Noticed that Windows has become slow propbly due to the Defenceder advanced thread protector. Time to evaluate some linux distro's.
 
@@ -36,6 +36,9 @@ Limit the evaluation to these distro's
 ## [[Pop!OS]]
 - PyCharm and VSCode are in the software manager.
 - ❌ Big launcher in the middle of the screen and also a bar in the top of the screen.
+
+## [[Fedora]]
+- Fedora looks better. But is slower in VMWare. 
 
 ## Log
 [[2025-10-19]]: Giving Ubuntu a shot.
