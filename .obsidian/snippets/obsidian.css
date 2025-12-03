@@ -1,0 +1,12 @@
+.markdown-rendered table {
+  margin-block-start: 0;
+}
+
+.cm-line:has(br) { /* Optional but gets rid of some more of the whitespace */
+  height: 1em;
+}
+
+
+.markdown-preview-view h2 + p {
+  margin-left: 20px;
+}

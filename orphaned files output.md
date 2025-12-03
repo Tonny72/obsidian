@@ -1,6 +1,6 @@
 ---
 date created: 2025-12-02T11:40:20+01:00
-date modified: 2025-12-02T20:53:28+01:00
+date modified: 2025-12-03T14:48:21+01:00
 ---
 - [[Introduction to Intelligent Control System.docx]]
 - [[assets/images/Pasted image 20250710150000\.jpg]]

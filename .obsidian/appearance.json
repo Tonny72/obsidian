@@ -1,0 +1,11 @@
+{
+  "cssTheme": "Things",
+  "theme": "moonstone",
+  "baseFontSize": 15,
+  "enabledCssSnippets": [
+    "obsidian"
+  ],
+  "monospaceFontFamily": "Consolas",
+  "textFontFamily": "Consolas",
+  "accentColor": "#568f00"
+}

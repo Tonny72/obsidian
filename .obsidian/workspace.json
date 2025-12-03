@@ -1,0 +1,285 @@
+{
+  "main": {
+    "id": "8044aadaf3b87c8f",
+    "type": "split",
+    "children": [
+      {
+        "id": "ae1a5c07fa02f609",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "224b2302c16a500f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Workflow.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Workflow"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "01a3c47d595adeac",
+    "type": "split",
+    "children": [
+      {
+        "id": "0caa5c73b927534c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "62ee3c6fe56d8e43",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": true
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "901ee665c47e0d03",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "panel ",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "9ffed69d76d7dba7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "801e176cf7676631",
+            "type": "leaf",
+            "state": {
+              "type": "notebook-navigator",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "notebook-navigator"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 385.5
+  },
+  "right": {
+    "id": "6ad6136ced42ee30",
+    "type": "split",
+    "children": [
+      {
+        "id": "2b7dcf191a13e970",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "008d938066da4bf0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "alphabetical",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "0a9ebefbe7bdaab9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "applications/video/Keuze Aankoop Film editing.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Keuze Aankoop Film editing"
+            }
+          },
+          {
+            "id": "008e0a6fdde7e6c7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "network/des/PCs en Servers/BE-DES-APS-023.md",
+                "linksCollapsed": true,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from BE-DES-APS-023"
+            }
+          },
+          {
+            "id": "5f175180d6d57235",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "9ae54c80a76b46a9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "applications/video/Keuze Aankoop Film editing.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Keuze Aankoop Film editing"
+            }
+          },
+          {
+            "id": "30c4209cc36b6c5c",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 502.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "bases:Create new base": false,
+      "notebook-navigator:Notebook Navigator": false,
+      "tasknotes:Open mini calendar": false,
+      "tasknotes:Open advanced calendar": false,
+      "tasknotes:Open task list": false,
+      "tasknotes:Open notes": false,
+      "tasknotes:Open agenda": false,
+      "tasknotes:Open kanban board": false,
+      "tasknotes:Open pomodoro": false,
+      "tasknotes:Open pomodoro stats": false,
+      "tasknotes:Create new task": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "224b2302c16a500f",
+  "lastOpenFiles": [
+    "test.md",
+    "Workflow.md",
+    "dev/dev projecten/Python Dashboards.md",
+    "orphaned files output.md",
+    "Sibelco/Leveranciers/ABB/Panel/Panel Builder 800 version 6.md",
+    "applications/Linux/Linux.md",
+    "journals/older/2021/2021_11_19.md",
+    "journals/older/2023/2023-12-13.md",
+    "Network draft recommendations.md",
+    "image9.jpg",
+    "TaskNotes/Tasks/Extra klep C3_SVA312.md",
+    "assets/resources/~$Hulp_ombouw_BBZ_-_Spreadsheet.xlsx",
+    "assets/resources/~$Plaatsing_staalnemers.xlsx",
+    "assets/resources/proximity card reader2.jpg",
+    "assets/images/fiber naar hoogspanningscabine.jpg",
+    "assets/resources/proximity card reader.jpg",
+    "assets/images/image008.png",
+    "assets/images/LCD clock.jpg",
+    "assets/images/LLB_PC1.pdf",
+    "assets/images/Pasted image 20240806115306.jpg",
+    "assets/images/image2-13.png",
+    "archive/applications/Energy/DES/Controle van Logging in SQL.md",
+    "assets/pdf/2021-04-01.Sibelco.Lommel.Riebos.DT-Budgetpreis.pdf",
+    "assets/images/image-2 1 (2).png",
+    "assets/images/image_1697704991990_0.jpg",
+    "~$troduction to Intelligent Control System.docx",
+    "applications/Planning (todo) software.md",
+    "personal/Cor/Cor log.md",
+    "personal/Cor/COR.md",
+    "personal/blog/Personal blog (Software).md",
+    "projects/nieuwe servers.md",
+    "Online storage.md",
+    "dev/DEV LOG - Ontwikkeling Windows (DEV)/Ontwikkeling reporting.md",
+    "dev/DEV LOG - Ontwikkeling Windows (DEV)/DEV LOG - Ontwikkeling Windows (DEV).md",
+    "DEV LOG.md",
+    "Dev Home.md",
+    "Sibelco/Leveranciers/ABB/800xA/ABB unlocked code vervolg.md~RF3690df.TMP",
+    "assets/images/image15-34.png~RF367047.TMP",
+    "installations/des/Laden vrachtwagens/Bunkers Silo's/Bunkers - Silo's Dessel.md~RF366d1b.TMP",
+    "journals/2025/04/2025-04-07.md~RF338729.TMP",
+    "installations/MHZ/Simocode instellingen/BC101.md~RF338005.TMP",
+    "applications/OneDrive.md",
+    "OneDrive.md",
+    "Network New Draft.md",
+    "journals/older/2023/2023-09-24.md",
+    "journals/2025/04/2025-04-28.md",
+    "Untitled.canvas",
+    "Canvads test.canvas",
+    "LogSeq/Untitled.canvas",
+    "LogSeq/Untitled(1).canvas",
+    "LogSeq/Untitled 2.canvas",
+    "Untitled 2.canvas",
+    "Untitled 1.canvas"
+  ]
+}

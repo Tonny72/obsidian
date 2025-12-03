@@ -1,10 +1,8 @@
 ---
-date created: 2021-12-22
-tags:
-  - Python
-  - Dash
-  - Streamlit
+date created: 2021-12-22T00:00:00+01:00
+tags: [Dash, Python, Streamlit]
 modified: 2025-08-29
+date modified: 2025-12-03T14:48:27+01:00
 ---
 # Python Dashboards
 
