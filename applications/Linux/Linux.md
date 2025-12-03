@@ -1,6 +1,6 @@
 ---
 date created: 2025-10-19T11:31:37+02:00
-date modified: 2025-12-03T08:04:03+01:00
+date modified: 2025-12-03T08:14:07+01:00
 ---
 [[2025-10-19]]: Noticed that Windows has become slow propbly due to the Defenceder advanced thread protector. Time to evaluate some linux distro's.
 
