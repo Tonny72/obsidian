@@ -1,7 +1,7 @@
 ---
 date created: 2025-07-24T00:00:00+02:00
 modified: 2025-08-20
-date modified: 2025-12-03T07:44:12+01:00
+date modified: 2025-12-03T08:32:06+01:00
 ---
 ## Log Manier van werken
 - Het is een veilige keuze om met de populaire internet standaarden te werken.
