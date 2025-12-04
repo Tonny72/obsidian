@@ -1,6 +1,6 @@
 ---
-date created: 2021-02-05
-date modified: 2025-08-30
+date created: 2021-02-05T00:00:00+01:00
+date modified: 2025-12-04T07:54:00+01:00
 ---
 # Rclone
 
@@ -29,3 +29,8 @@ rclone copy "[\\\10.32.29.26\d\$\backup](file://10.32.29.26/d$/backup)" "automat
 **TOKEN EXPIRED**
 rclone config reconnect AutomationOneDrive:
 
+### Synchroniseer de data directory
+```cmd
+rclone bisync sharepoint:/Automatisering/Data /home/tonny/data_sib --verbose --resync
+
+```

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Workflow.md",
+                "file": "installations/common/Rclone.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Workflow"
+              "title": "Rclone"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "panel ",
+                "query": "rclone",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -94,7 +94,8 @@
               "title": "notebook-navigator"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -228,12 +229,14 @@
   },
   "active": "224b2302c16a500f",
   "lastOpenFiles": [
-    "test.md",
+    "applications/Linux/Linux.md",
+    "installations/common/Rclone.md",
+    "installations/common/Rclone-vm-develop.md",
     "Workflow.md",
+    "test.md",
     "dev/dev projecten/Python Dashboards.md",
     "orphaned files output.md",
     "Sibelco/Leveranciers/ABB/Panel/Panel Builder 800 version 6.md",
-    "applications/Linux/Linux.md",
     "journals/older/2021/2021_11_19.md",
     "journals/older/2023/2023-12-13.md",
     "Network draft recommendations.md",
@@ -272,8 +275,6 @@
     "applications/OneDrive.md",
     "OneDrive.md",
     "Network New Draft.md",
-    "journals/older/2023/2023-09-24.md",
-    "journals/2025/04/2025-04-28.md",
     "Untitled.canvas",
     "Canvads test.canvas",
     "LogSeq/Untitled.canvas",
